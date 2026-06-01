@@ -1,23 +1,19 @@
 import Image from "next/image";
 
-const Hero = () => {
+export default function Hero() {
   return (
-    <section className="relative w-full overflow-hidden">
-      <div className="relative   xl:h-screen">
+    <section className="w-full">
+      <div className="relative w-full">
         <Image
           src="/images/hero-img-1.webp"
-          alt="The Launchpad Event"
-          fill
+          alt="LaunchPad Hero"
+          width={1920}
+          height={1080}
           priority
-          className="object-cover w-full object-center"
           sizes="100vw"
+          className="block w-full h-auto"
         />
-
-        {/* Optional Overlay */}
-        {/* <div className="absolute inset-0 bg-black/10" /> */}
       </div>
     </section>
   );
-};
-
-export default Hero;
+}

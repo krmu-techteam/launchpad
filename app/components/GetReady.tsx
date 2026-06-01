@@ -6,25 +6,50 @@ const images = [
   "/images/parmish.webp",
 ];
 
-const GetReady = () => {
+export default function GetReady() {
   return (
-    <section className="py-20 px-5">
-      <div className="max-w-7xl xl:max-w-full mx-auto">
-        <h3 className="font-domine text-[56px] font-bold text-center text-[#061B3A] mb-12">
+    <section className="py-12 md:py-16 lg:py-20">
+      <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-10">
+        {/* Heading */}
+        <h2
+          className="
+            mb-8 md:mb-12
+            text-center
+            font-domine
+            font-bold
+            text-[#061B3A]
+            text-3xl
+            sm:text-4xl
+            lg:text-5xl
+          "
+        >
           Get Ready for the Experience
-        </h3>
+        </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        {/* Cards */}
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-5">
           {images.map((image, index) => (
             <div
               key={index}
-              className="relative overflow-hidden rounded-3xl aspect-[1/1.05] group"
+              className="
+                group
+                relative
+                overflow-hidden
+                rounded-[20px]
+                aspect-[4/5]
+              "
             >
               <Image
                 src={image}
                 alt={`Experience ${index + 1}`}
                 fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                sizes="(max-width: 768px) 100vw, 33vw"
+                className="
+                  object-cover
+                  transition-transform
+                  duration-500
+                  group-hover:scale-105
+                "
               />
             </div>
           ))}
@@ -32,6 +57,4 @@ const GetReady = () => {
       </div>
     </section>
   );
-};
-
-export default GetReady;
+}

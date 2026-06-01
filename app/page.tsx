@@ -9,9 +9,11 @@ export default function Home() {
     <>
       <Hero />
       <Explore />
-      <BiggestCreator />
       <GetReady />
       <YourJourney />
+      {/* 
+      <BiggestCreator />
+       */}
     </>
   );
 }
