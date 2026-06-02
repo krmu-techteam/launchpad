@@ -46,12 +46,6 @@ const NpfPopup = ({
     const utmMedium = url.searchParams.get("utm_medium");
     const utmCampaign = url.searchParams.get("utm_campaign");
 
-    console.log("UTM Values being sent to NPF:", {
-      utmSource,
-      utmMedium,
-      utmCampaign,
-    });
-
     loadNpfScript()
       .then(() => {
         const config = {

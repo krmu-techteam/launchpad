@@ -17,33 +17,34 @@ const Header = () => {
         </div>
 
         {/* Clouds */}
-        <div className="xl:w-[60%] hidden xl:flex flex-wrap justify-center gap-3 lg:gap-5">
-          <div>
-
+        <div className="xl:w-[60%] hidden xl:flex flex-wrap justify-center gap-3 lg:gap-5 relative">
+          <div className="absolute left-0 bottom-0">
+            <Image
+              src="/images/cloud-1.png"
+              width={250}
+              height={80}
+              alt="Biggest Creators"
+              className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
+            />
           </div>
-          <Image
-            src="/images/cloud-1.png"
-            width={250}
-            height={80}
-            alt="Biggest Creators"
-            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
-          />
-
-          <Image
-            src="/images/cloud-2.png"
-            width={250}
-            height={80}
-            alt="About LaunchPad"
-            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
-          />
-
-          <Image
-            src="/images/cloud-3.png"
-            width={250}
-            height={80}
-            alt="Why Attend"
-            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
-          />
+          <div className="absolute left-1/2 bottom-0">
+            <Image
+              src="/images/cloud-1.png"
+              width={250}
+              height={80}
+              alt="Biggest Creators"
+              className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
+            />
+          </div>
+          <div className="absolute right-0 bottom-0">
+            <Image
+              src="/images/cloud-1.png"
+              width={250}
+              height={80}
+              alt="Biggest Creators"
+              className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
+            />
+          </div>
         </div>
 
         {/* Button */}
