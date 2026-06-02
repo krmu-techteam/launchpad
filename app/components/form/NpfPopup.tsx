@@ -20,15 +20,33 @@ const NpfPopup = ({
   const btnRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    if (!formId || !btnRef.current) return;
+    if (!formId) return;
 
-    const params = new URLSearchParams(window.location.search);
+    const url = new URL(window.location.href);
+    let changed = false;
 
-    const utmSource = params.get("utm_source") || "Launchpad";
-    const utmMedium = params.get("utm_medium") || "Website";
-    const utmCampaign = params.get("utm_campaign") || "launchpad_2026";
+    if (!url.searchParams.has("utm_source")) {
+      url.searchParams.set("utm_source", "Launchpad");
+      changed = true;
+    }
+    if (!url.searchParams.has("utm_medium")) {
+      url.searchParams.set("utm_medium", "Website");
+      changed = true;
+    }
+    if (!url.searchParams.has("utm_campaign")) {
+      url.searchParams.set("utm_campaign", "launchpad_2026");
+      changed = true;
+    }
 
-    console.log("UTM Values:", {
+    if (changed) {
+      window.history.replaceState({}, "", url.toString());
+    }
+
+    const utmSource = url.searchParams.get("utm_source");
+    const utmMedium = url.searchParams.get("utm_medium");
+    const utmCampaign = url.searchParams.get("utm_campaign");
+
+    console.log("UTM Values being sent to NPF:", {
       utmSource,
       utmMedium,
       utmCampaign,
@@ -44,12 +62,12 @@ const NpfPopup = ({
           backgroundColor: "#ddd",
           iframeHeight: "500px",
           buttonTextColor: "#FFF",
-          target: btnRef.current,
+          target: "npf-popup-btn-" + formId,
 
-          // Try these only if NPF supports them
-          utm_source: utmSource,
-          utm_medium: utmMedium,
-          utm_campaign: utmCampaign,
+          m_source: utmSource,
+          m_medium: utmMedium,
+          m_campaign: utmCampaign,
+          extraparams: `utm_source=${utmSource}&utm_medium=${utmMedium}&utm_campaign=${utmCampaign}`,
         };
 
         // @ts-ignore
@@ -62,6 +80,7 @@ const NpfPopup = ({
 
   return (
     <button
+      id={`npf-popup-btn-${formId}`}
       ref={btnRef}
       className={`${btnClass} cursor-pointer group flex items-center justify-center gap-2 transition-all duration-300 relative overflow-hidden`}
     >
