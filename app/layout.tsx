@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import CommonLeadPopup from "./components/CommonLeadup";
 import NpfPopup from "./components/form/NpfPopup";
+import Footer from "./components/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

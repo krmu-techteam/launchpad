@@ -19,9 +19,42 @@
   font-family: var(--font-domine);
 }
 
-@media(max-width: 380px){
-  .mobileGetReady{
+@media (max-width: 380px) {
+  .mobileGetReady {
     height: 300px;
+  }
+}
+
+@layer utilities {
+
+  .registerBtn button{
+     position: fixed !important;
+    right: -99px !important;
+    top: 32% !important;
+    transform: rotate(270deg) !important;
+    padding: 10px 20px !important;
+    max-width: 250px !important;
+    width: 100% !important;
+    font-size: 20px !important;
+    background: #d81e20 !important;
+    color: #fff !important;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 999999;
+  }
+  
+  .downloadBtns button {
+    position: fixed !important;
+    z-index: 999999;
+    right: -99px !important;
+    top: 65% !important;
+    transform: rotate(270deg) !important;
+    padding: 10px 20px !important;
+    max-width: 250px !important;
+    width: 100% !important;
+    font-size: 20px !important;
+    background: #eaeaea !important;
+    color: #3a3a3a !important;
+    border-radius: 10px 10px 0px 0px;
   }
 }
 

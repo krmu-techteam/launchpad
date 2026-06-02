@@ -76,7 +76,7 @@ const NpfPopup = ({
     <button
       id={`npf-popup-btn-${formId}`}
       ref={btnRef}
-      className={`${btnClass} cursor-pointer group flex items-center justify-center gap-2 transition-all duration-300 relative overflow-hidden`}
+      className={`${btnClass}`}
     >
       <span>{btnText}</span>
 

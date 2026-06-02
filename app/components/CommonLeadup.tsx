@@ -93,7 +93,7 @@ const CommonLeadPopup = ({
       {/* Modal — portalled to document.body so it escapes all parent stacking contexts */}
       {open &&
         createPortal(
-          <div className="fixed inset-0 z-[99999] bg-black/60 flex items-center justify-center px-4">
+          <div className="fixed inset-0 z-[99999999] bg-black/60 flex items-center justify-center px-4">
             <div className="bg-white w-full max-w-[520px] rounded-2xl shadow-2xl relative">
               {/* Close */}
               <button

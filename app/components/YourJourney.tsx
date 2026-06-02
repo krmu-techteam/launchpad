@@ -158,7 +158,7 @@ const YourJourney = () => {
                 text-black
                 transition
                 hover:bg-gray-100"
-              redirectUrl={"https:google.com"}
+              redirectUrl={"https://launchpad.krmangalam.edu.in/launchpad-brochure.pdf"}
               form_name="Download Brochure"
             />
           </div>
