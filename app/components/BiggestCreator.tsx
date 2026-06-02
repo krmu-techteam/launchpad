@@ -33,7 +33,18 @@ const BiggestCreator = () => {
                 overlayBG="bg-[#4f484a]/40"
                 creatorInfo={`Build a strong professional presence even before your first semester begins. Learn how to create an impactful LinkedIn profile that showcases your skills, achievements, and aspirations while helping you build meaningful connections and future career opportunities from day one.`}
               />
-              <CreateCard
+             <CreateCard
+                image="/images/creators/rj-naved.png"
+                date="18"
+                month="JUNE"
+                name="Aparshakti Khurana"
+                title="Life lessons & power of perseverance"
+                contentBG="bg-[linear-gradient(180deg,#005C60_0%,#151515_100%)]"
+                infoContent="max-w-[220px]"
+                overlayBG="bg-[#044e51]/50"
+                creatorInfo={`A candid conversation on embracing challenges, staying resilient through setbacks, discovering one’s true potential, and navigating the journey from aspirations to achievements. Gain insights into personal growth, self-belief, and the mindset required to turn obstacles into opportunities.`}
+              />
+              {/* <CreateCard
                 image="/images/creators/ashish.png"
                 date="12"
                 month="JUNE"
@@ -42,7 +53,7 @@ const BiggestCreator = () => {
                 contentBG="bg-[linear-gradient(180deg,#864B23_0%,#201208_100%)]"
                 infoContent="max-w-[280px]"
                 overlayBG="bg-[#74411e]/50"
-              />
+              /> */}
               <CreateCard
                 image="/images/creators/rj-naved.png"
                 date="24"
@@ -101,7 +112,7 @@ const BiggestCreator = () => {
               />
               <CreateCard
                 image="/images/creators/malvika.png"
-                date="22"
+                date="29"
                 month="JULY"
                 name="Malvika Vishwakarma"
                 title="Personality Development & Styling"
@@ -110,9 +121,20 @@ const BiggestCreator = () => {
                 overlayBG="bg-[#00142c]/50"
                 creatorInfo={`Boost your confidence through self-grooming, styling, and effective first impressions. Learn how personality, appearance, and communication together contribute to personal and professional growth.`}
               />
-              <div className="col-span-2">
+                <CreateCard
+                image="/images/creators/aman.webp"
+                date="05"
+                month="AUG"
+                name="Aman Gupta"
+                title="Think Like a Founder: Skills, Mindset & Opportunities for the AI Era"
+                contentBG="bg-[radial-gradient(circle_at_center,#FFE98A_0%,#F5D35C_25%,#D89A2B_60%,#B87412_100%)]"
+                infoContent=""
+                overlayBG="bg-[#dfa939]/60"
+                creatorInfo={`A dynamic session on thinking beyond conventional career paths, cultivating a founder's mindset, and preparing for the opportunities of tomorrow. Learn how to adapt to technological disruption, harness the power of AI, build problem-solving skills, and transform ideas into meaningful impact in an increasingly innovation-led world.`}
+              />
+              {/* <div className="col-span-2">
                 <FullWidthCreatorCard />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -134,7 +156,7 @@ const BiggestCreator = () => {
             />
           </div>
 
-          <div className="bg-[#f8f8f8] p-5 rounded-2xl max-w-162.5 mx-auto z-20 relative">
+          <div className="bg-[#f8f8f8] p-5 rounded-2xl max-w-162.5 mx-auto z-20 relative border-2 border-[#cacaca]">
             <h4 className="text-xl sm:text-3xl font-semibold font-domine mb-5">
               What is KRMU’s Launchpad?
             </h4>
@@ -173,7 +195,7 @@ const BiggestCreator = () => {
               alt="Thread"
             />
           </div>
-          <div className="bg-[#f8f8f8] p-5 rounded-2xl max-w-162.5 mx-auto">
+          <div className="bg-[#f8f8f8] p-5 rounded-2xl max-w-162.5 mx-auto border-2 border-[#cacaca]">
             <h4 className="text-xl sm:text-3xl font-semibold mb-5 font-domine">
               Why Attend KRMU’s Launchpad?
             </h4>
