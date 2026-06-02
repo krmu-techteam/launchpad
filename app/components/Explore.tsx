@@ -8,7 +8,7 @@ const Explore = () => {
       <div className="relative z-10 flex min-h-200 items-center justify-center px-6 py-24">
         <div className="mx-auto max-w-5xl text-center text-white">
           {/* Heading */}
-          <h1 className="font-bold leading-tight text-[42px] md:text-[60px] xl:text-[78px]">
+          <h1 className="font-bold leading-tight text-[42px] md:text-[60px] xl:text-[78px] domine-family">
             KRMU'S <span className="text-[#FF9D00]">LAUNCHPAD 2026</span>
           </h1>
 
