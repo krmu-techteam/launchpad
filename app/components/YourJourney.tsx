@@ -6,7 +6,7 @@ import NpfPopup from "./form/NpfPopup";
 const YourJourney = () => {
   return (
     <section className="relative px-4 py-12 md:px-6 lg:py-16">
-      <div className="relative mx-auto max-w-[1200px]">
+      <div className="relative mx-auto max-w-[1664px]">
         {/* Decorative Clouds */}
         <Image
           src="/images/cloud-4.png"
@@ -28,7 +28,10 @@ const YourJourney = () => {
         <div
           className="
             rounded-[24px]
-            bg-[#002A63]
+            bg-[url(/images/youjourney-bg.webp)]
+            bg-cover
+            bg-center bg-no-repeat
+            overflow-hidden
             px-6
             py-10
             md:px-10

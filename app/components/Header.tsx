@@ -18,12 +18,15 @@ const Header = () => {
 
         {/* Clouds */}
         <div className="xl:w-[60%] hidden xl:flex flex-wrap justify-center gap-3 lg:gap-5">
+          <div>
+
+          </div>
           <Image
             src="/images/cloud-1.png"
             width={250}
             height={80}
             alt="Biggest Creators"
-            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto"
+            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
           />
 
           <Image
@@ -31,7 +34,7 @@ const Header = () => {
             width={250}
             height={80}
             alt="About LaunchPad"
-            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto"
+            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
           />
 
           <Image
@@ -39,7 +42,7 @@ const Header = () => {
             width={250}
             height={80}
             alt="Why Attend"
-            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto"
+            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
           />
         </div>
 
