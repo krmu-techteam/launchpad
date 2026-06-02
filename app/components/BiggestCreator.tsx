@@ -33,7 +33,7 @@ const BiggestCreator = () => {
                 overlayBG="bg-[#4f484a]/40"
                 creatorInfo={`Build a strong professional presence even before your first semester begins. Learn how to create an impactful LinkedIn profile that showcases your skills, achievements, and aspirations while helping you build meaningful connections and future career opportunities from day one.`}
               />
-             <CreateCard
+             {/* <CreateCard
                 image="/images/creators/rj-naved.png"
                 date="18"
                 month="JUNE"
@@ -43,7 +43,7 @@ const BiggestCreator = () => {
                 infoContent="max-w-[220px]"
                 overlayBG="bg-[#044e51]/50"
                 creatorInfo={`A candid conversation on embracing challenges, staying resilient through setbacks, discovering one’s true potential, and navigating the journey from aspirations to achievements. Gain insights into personal growth, self-belief, and the mindset required to turn obstacles into opportunities.`}
-              />
+              /> */}
               {/* <CreateCard
                 image="/images/creators/ashish.png"
                 date="12"
