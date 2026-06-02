@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import CommonLeadPopup from "./CommonLeadup";
+import NpfPopup from "./form/NpfPopup";
 
 const YourJourney = () => {
   return (
@@ -7,19 +9,19 @@ const YourJourney = () => {
       <div className="relative mx-auto max-w-[1200px]">
         {/* Decorative Clouds */}
         <Image
-          src="/images/footer-cloud-2.webp"
+          src="/images/cloud-4.png"
           alt=""
-          width={120}
-          height={60}
-          className="absolute -top-10 left-8 hidden md:block"
+          width={200}
+          height={100}
+          className="absolute bottom-full left-8 hidden sm:block"
         />
 
         <Image
-          src="/images/footer-cloud-2.webp"
+          src="/images/cloud-4.png"
           alt=""
-          width={120}
-          height={60}
-          className="absolute -top-10 right-8 hidden md:block"
+          width={200}
+          height={100}
+          className="absolute bottom-full right-8 block"
         />
 
         {/* Card */}
@@ -74,9 +76,8 @@ const YourJourney = () => {
               text-white/90
             "
           >
-            Join KRMU's Launchpad and begin your journey with
-            inspiration, creativity, connections, and unforgettable
-            experiences.
+            Join KRMU's Launchpad and begin your journey with inspiration,
+            creativity, connections, and unforgettable experiences.
           </p>
 
           {/* Buttons */}
@@ -91,10 +92,19 @@ const YourJourney = () => {
               sm:flex-row
             "
           >
-            <Link
+            {/* <Link
               href="#"
               className="
-                w-full
+              
+              "
+            >
+              Register Now
+            </Link> */}
+
+            <NpfPopup
+              formId={`bc75880ade367265cef841c19ef47621`}
+              btnClass={`
+          w-full
                 sm:w-auto
                 min-w-[220px]
                 rounded-full
@@ -106,12 +116,12 @@ const YourJourney = () => {
                 text-white
                 transition
                 hover:opacity-90
-              "
-            >
-              Register Now
-            </Link>
+          sm:text-base npfWidget-bc75880ade367265cef841c19ef47621`}
+              btnText={`Register Now`}
+              showIcon={false}
+            />
 
-            <Link
+            {/* <Link
               href="#"
               className="
                 w-full
@@ -129,7 +139,25 @@ const YourJourney = () => {
               "
             >
               Download Brochure
-            </Link>
+            </Link> */}
+
+            <CommonLeadPopup
+              buttonText={"Download Brochure"}
+              buttonClassName="w-full
+                sm:w-auto
+                min-w-[220px]
+                rounded-full
+                bg-white
+                px-8
+                py-4
+                text-center
+                font-semibold
+                text-black
+                transition
+                hover:bg-gray-100"
+              redirectUrl={"https:google.com"}
+              form_name="Download Brochure"
+            />
           </div>
         </div>
       </div>

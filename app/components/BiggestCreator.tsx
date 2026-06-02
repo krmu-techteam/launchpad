@@ -5,24 +5,23 @@ import Image from "next/image";
 
 const BiggestCreator = () => {
   return (
-    <section className="py-12.5">
-      <div className="max-w-416 mx-auto flex relative overflow-hidden">
+    <section className="py-10 sm:py-12.5 px-4">
+      <div className="max-w-416 mx-auto flex flex-col lg:flex-row gap-5 xl:gap-10 2xl:gap-0 relative overflow-hidden font-poppins">
         <div className="absolute">
-        <Image
-          src="/images/creator-bg.webp"
-          width={1210}
-          height={1210}
-          alt=""
-        />
-      </div>
-        <div className="w-[60%] relative overflow-hidden z-10">
-        
-          <h4 className="text-4xl text-center">
+          <Image
+            src="/images/creator-bg.webp"
+            width={1210}
+            height={1210}
+            alt=""
+          />
+        </div>
+        <div className="w-full lg:w-[60%] relative overflow-hidden z-10 ">
+          <h4 className="text-2xl sm:text-4xl text-center font-domine">
             Learn From India’s Biggest Creators
           </h4>
           <p className="text-center">Featured Sessions at the Launchpad</p>
-          <div className="h-225 overflow-y-auto scrollbar-none">
-            <div className="grid grid-cols-2 gap-5 max-w-4xl mx-auto">
+          <div className="h-150 lg:h-300 xl:h-258.75 2xl:h-225 overflow-y-auto scrollbar-none">
+            <div className="flex flex-col sm:grid grid-cols-2 gap-5 max-w-4xl mx-auto">
               <CreateCard
                 image="/images/creators/ankur.png"
                 date="09"
@@ -101,9 +100,26 @@ const BiggestCreator = () => {
             </div>
           </div>
         </div>
-        <div className="w-[40%] z-10">
-          <div className="bg-[#f8f8f8] p-5 rounded-2xl max-w-162.5 mx-auto">
-            <h4 className="text-3xl font-semibold">
+        <div className="w-full lg:w-[40%] z-10 relative">
+          <div className="max-w-162.5 mx-auto flex justify-between bg-white">
+            <Image
+              src="/images/cloud-4.png"
+              alt=""
+              width={200}
+              height={100}
+              className="-mb-1"
+            />
+            <Image
+              src="/images/cloud-4.png"
+              alt=""
+              width={200}
+              height={100}
+              className=""
+            />
+          </div>
+
+          <div className="bg-[#f8f8f8] p-5 rounded-2xl max-w-162.5 mx-auto ">
+            <h4 className="text-xl sm:text-3xl font-semibold font-domine mb-5">
               What is KRMU’s Launchpad?
             </h4>
             <p>
@@ -128,57 +144,77 @@ const BiggestCreator = () => {
             </p>
           </div>
           <div className="max-w-162.5 mx-auto flex justify-around">
-            <Image src="/images/thread.png" width={46} height={34} alt="Thread" />
-            <Image src="/images/thread.png" width={46} height={34} alt="Thread" />
+            <Image
+              src="/images/thread.png"
+              width={46}
+              height={34}
+              alt="Thread"
+            />
+            <Image
+              src="/images/thread.png"
+              width={46}
+              height={34}
+              alt="Thread"
+            />
           </div>
           <div className="bg-[#f8f8f8] p-5 rounded-2xl max-w-162.5 mx-auto">
-            <h4 className="text-3xl font-semibold">
+            <h4 className="text-xl sm:text-3xl font-semibold mb-5">
               Why Attend KRMU’s Launchpad?
             </h4>
-            <p>
+            <p className="mb-2.5">
               Because your university journey should begin with inspiration and
               preparation.
             </p>
-            <p>
+            <p className="mb-2.5">
               <strong>
                 At KRMU's Launchpad, students get the opportunity to:
               </strong>
             </p>
-            <ul className="pl-5 space-y-2.5">
-              <li className="flex items-center gap-2.5">
-                <CircleArrowRight />{" "}
+            <ul className="space-y-2.5">
+              <li className="flex items-center gap-2">
+                <div>
+                  <CircleArrowRight size={22} />{" "}
+                </div>
                 <span>
                   Engage in inspiring sessions with creators, mentors, and
                   industry experts
                 </span>
               </li>
-              <li className="flex items-center gap-2.5">
-                <CircleArrowRight />{" "}
+              <li className="flex items-center gap-2">
+                <div>
+                  <CircleArrowRight size={22} />{" "}
+                </div>
                 <span>
                   Develop essential life skills and future-ready perspectives
                 </span>
               </li>
-              <li className="flex items-center gap-2.5">
-                <CircleArrowRight />{" "}
+              <li className="flex items-center gap-2">
+                <div>
+                  <CircleArrowRight size={22} />{" "}
+                </div>
                 <span>
                   Build confidence for their academic and personal journey
                 </span>
               </li>
-              <li className="flex items-center gap-2.5">
-                <CircleArrowRight />{" "}
+              <li className="flex items-center gap-2">
+                <div>
+                  <CircleArrowRight size={22} />{" "}
+                </div>
                 <span>
                   Connect with fellow students before stepping onto campus
                 </span>
               </li>
-              <li className="flex items-center gap-2.5">
-                <CircleArrowRight />{" "}
+              <li className="flex items-center gap-2">
+                <div>
+                  <CircleArrowRight size={22} />{" "}
+                </div>
                 <span>
                   Experience the spirit of growth, learning, and community from
                   Day One
                 </span>
               </li>
             </ul>
-            <p>
+            <p className="mt-2.5">
               KRMU’s Launchpad is designed to help students begin their
               university journey with confidence, clarity, and motivation.
             </p>

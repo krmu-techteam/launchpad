@@ -23,7 +23,7 @@ const CreateCard = ({
   infoContent
 }: CreateCardProps) => {
   return (
-    <div className="relative overflow-hidden rounded-t-[20px] group">
+    <div className="relative overflow-hidden rounded-t-[20px] group w-full">
       {/* Image */}
       <div className="relative aspect-4/5">
         <Image
@@ -48,9 +48,9 @@ const CreateCard = ({
 
           <div><ChevronUp /></div>
 
-          <h3 className="text-[22px] font-bold leading-tight">{name}</h3>
+          <h3 className="text-sm sm:text-[22px] font-bold leading-tight">{name}</h3>
 
-          <p className="mt-1 text-lg leading-snug text-white/90">{title}</p>
+          <p className="mt-1 text-xs sm:text-lg leading-snug text-white/90">{title}</p>
           </div>
         </div>
       </div>

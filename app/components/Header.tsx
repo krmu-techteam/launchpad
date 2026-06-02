@@ -1,22 +1,23 @@
 import Image from "next/image";
+import NpfPopup from "./form/NpfPopup";
 
 const Header = () => {
   return (
-    <header className="px-4 py-4 md:px-6 md:py-5">
-      <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+    <header className="pb-4 xl:pb-0 px-2.5 sm:px-4 pt-4 md:px-6 md:pt-5">
+      <div className="flex gap-4 flex-row items-center justify-between">
         {/* Logo */}
-        <div className="flex justify-center lg:justify-start">
+        <div className="w-2/3 sm:w-1/3 xl:w-[20%]">
           <Image
             src="/images/krm-logo.png"
-            width={450}
-            height={70}
+            width={352}
+            height={54}
             alt="KRMU Logo"
-            className="w-[180px] sm:w-[250px] md:w-[320px] lg:w-[420px] h-auto"
+            className="w-full h-auto"
           />
         </div>
 
         {/* Clouds */}
-        <div className="flex flex-wrap justify-center gap-3 lg:gap-5">
+        <div className="xl:w-[60%] hidden xl:flex flex-wrap justify-center gap-3 lg:gap-5">
           <Image
             src="/images/cloud-1.png"
             width={250}
@@ -43,21 +44,38 @@ const Header = () => {
         </div>
 
         {/* Button */}
-        <div className="flex justify-center lg:justify-end">
-          <button
+        <div className="w-1/3 sm:w-2/3 xl:w-[20%] flex justify-end">
+          {/* <button
             className="
           rounded-full
           bg-[linear-gradient(90deg,#E21F21_0%,#7C1112_100%)]
           text-white
           font-semibold
-          px-5 py-2
+          px-2.5 py-1.5
           sm:px-6 sm:py-3
           md:px-8 md:py-3
-          whitespace-nowrap
+          whitespace-
+          text-sm
+          sm:text-base
         "
           >
             Register Now
-          </button>
+          </button> */}
+          <NpfPopup
+            formId={`bc75880ade367265cef841c19ef47621`}
+            btnClass={`rounded-full
+          bg-[linear-gradient(90deg,#E21F21_0%,#7C1112_100%)]
+          text-white
+          font-semibold
+          px-2.5 py-1.5
+          sm:px-6 sm:py-3
+          md:px-8 md:py-3
+          whitespace-
+          text-sm
+          sm:text-base npfWidget-bc75880ade367265cef841c19ef47621`}
+            btnText={`Register Now`}
+            showIcon={false}
+          />
         </div>
       </div>
     </header>

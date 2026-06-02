@@ -8,8 +8,8 @@ const images = [
 
 export default function GetReady() {
   return (
-    <section className="py-12 md:py-16 lg:py-20">
-      <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-10">
+    <section className="pb-10 pt-0 sm:py-12 md:py-16 lg:py-20">
+      <div className="px-4 sm:px-6 lg:px-10">
         {/* Heading */}
         <h2
           className="
@@ -36,18 +36,22 @@ export default function GetReady() {
                 relative
                 overflow-hidden
                 rounded-[20px]
-                aspect-[4/5]
+                
+                mobileGetReady
               "
             >
               <Image
                 src={image}
                 alt={`Experience ${index + 1}`}
-                fill
+                width={300}
+                height={300}
                 sizes="(max-width: 768px) 100vw, 33vw"
                 className="
                   object-cover
                   transition-transform
                   duration-500
+                   w-full
+                   h-full
                   group-hover:scale-105
                 "
               />

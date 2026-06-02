@@ -5,10 +5,10 @@ const Explore = () => {
       <div className="absolute inset-0 bg-linear-to-b from-[#001732]/90 via-[#001261]/85 to-[#000D97]/90" />
 
       {/* Content */}
-      <div className="relative z-10 flex min-h-200 items-center justify-center px-6 py-24">
+      <div className="relative z-10 flex items-center justify-center px-6 py-10 lg:py-24">
         <div className="mx-auto max-w-5xl text-center text-white">
           {/* Heading */}
-          <h1 className="font-bold leading-tight text-[42px] md:text-[60px] xl:text-[78px] domine-family">
+          <h1 className="font-bold leading-tight text-2xl md:text-5xl xl:text-7xl font-domine">
             KRMU'S <span className="text-[#FF9D00]">LAUNCHPAD 2026</span>
           </h1>
 
