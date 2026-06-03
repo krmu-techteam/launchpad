@@ -17,7 +17,7 @@ const WhatIsLaunchpad = () => {
       />
 
       <h4 className="font-domine text-[24px] md:text-[28px] lg:text-[32px] leading-tight text-white mb-4">
-        What is KRMU’s Launchpad?
+        What is KRMU’s LAUNCHPAD?
       </h4>
 
       <p className="text-white text-sm md:text-base mb-6 md:mb-8">
@@ -28,7 +28,7 @@ const WhatIsLaunchpad = () => {
       <div className="w-full border border-white/20 mb-5"></div>
 
       <p className="text-sm md:text-base font-semibold text-white mb-6">
-        At KRMU's Launchpad, students get the opportunity to:
+        At KRMU's LAUNCHPAD, students get the opportunity to:
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 mb-8">
@@ -66,7 +66,7 @@ const WhatIsLaunchpad = () => {
       </div>
 
       <p className="text-white text-sm md:text-base font-normal leading-6 mb-0">
-        KRMU’s Launchpad is designed to help students begin their university
+        KRMU’s LAUNCHPAD is designed to help students begin their university
         journey with confidence, clarity, and motivation.
       </p>
     </div>
@@ -74,7 +74,7 @@ const WhatIsLaunchpad = () => {
     {/* Right Card */}
     <div className="w-full xl:w-1/2 bg-[linear-gradient(320.09deg,#032A66_62.28%,#1D54A6_92.13%)] p-5 md:p-8 lg:p-11 rounded-[20px]">
       <h4 className="font-domine text-[24px] md:text-[28px] lg:text-[32px] leading-tight text-white mb-4">
-        Why Attend KRMU’s Launchpad?
+        Why Attend KRMU’s LAUNCHPAD?
       </h4>
 
       <p className="text-white text-sm md:text-base mb-6 md:mb-8">
@@ -85,7 +85,7 @@ const WhatIsLaunchpad = () => {
       <div className="w-full border border-white/20 mb-5"></div>
 
       <p className="text-sm md:text-base font-semibold text-white mb-6">
-        At KRMU's Launchpad, students get the opportunity to:
+        At KRMU's LAUNCHPAD, students get the opportunity to:
       </p>
 
       <ul className="text-base md:text-lg text-white font-normal flex flex-col gap-5 md:gap-7 lg:gap-10">
@@ -145,7 +145,7 @@ const WhatIsLaunchpad = () => {
       <div className="w-full border border-white/20 mt-6 md:mt-7 mb-5"></div>
 
       <p className="text-white text-base md:text-lg text-center mb-0">
-        KRMU’s Launchpad is designed to help students begin their university
+        KRMU’s LAUNCHPAD is designed to help students begin their university
         journey with confidence, clarity, and motivation.
       </p>
     </div>

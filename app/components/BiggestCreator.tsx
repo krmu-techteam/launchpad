@@ -21,7 +21,7 @@ const BiggestCreator = () => {
         </h4>
 
         <p className="text-lg md:text-xl lg:text-2xl leading-normal lg:leading-8 mb-8">
-          Featured Sessions at the Launchpad
+          Featured Sessions at the LAUNCHPAD
         </p>
       </div>
 

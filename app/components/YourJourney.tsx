@@ -16,7 +16,7 @@ const YourJourney = () => {
           </h6>
 
           <p className="text-base lg:text-lg text-white mb-0">
-            Join KRMU’s Launchpad and begin your journey with inspiration,
+            Join KRMU’s LAUNCHPAD and begin your journey with inspiration,
             creativity, connections, and unforgettable experiences.
           </p>
         </div>

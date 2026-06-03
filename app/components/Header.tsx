@@ -44,7 +44,7 @@ const Header = () => {
                   onClick={() => handleScroll("biggest-creator")}
                   className="text-[22px] leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
                 >
-                  Biggest Creator
+                  Biggest Creators
                 </button>
               </li>
 
@@ -53,7 +53,7 @@ const Header = () => {
                   onClick={() => handleScroll("about-launchpad")}
                   className="text-[22px] leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
                 >
-                  About LaunchPad
+                  About LAUNCHPAD
                 </button>
               </li>
 
@@ -93,7 +93,7 @@ const Header = () => {
                   onClick={() => handleScroll("biggest-creator")}
                   className="w-full text-left"
                 >
-                  Biggest Creator
+                  Biggest Creators
                 </button>
               </li>
 
@@ -102,7 +102,7 @@ const Header = () => {
                   onClick={() => handleScroll("about-launchpad")}
                   className="w-full text-left"
                 >
-                  About LaunchPad
+                  About LAUNCHPAD
                 </button>
               </li>
 

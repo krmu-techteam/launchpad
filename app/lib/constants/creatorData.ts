@@ -49,7 +49,7 @@ export const creatorData: CreatorDataType[] = [
   },
   {
     creatorName: "Sameeksha Sud",
-    creatorTitle: "Healthy Habits for High Performance Students",
+    creatorTitle: "Healthy Habits for High Performing Students",
     creatorDesc:
       "Build healthy habits and a balanced lifestyle that empower you to stay energetic, focused, and confident throughout your university journey. Discover practical strategies for managing stress, maintaining physical wellness, and creating a positive mindset to thrive in today’s fast-paced academic environment.",
     creatorImage: "/images/creators/sameeksha.png",
@@ -60,9 +60,9 @@ export const creatorData: CreatorDataType[] = [
     month: "July",
   },
   {
-    creatorName: "RJ Nitin",
+    creatorName: "Khurafati Nitin",
     creatorTitle:
-      "Overthinking, FOMO & Social Pressure: Surviving College Mentally Strong",
+      "Overthinking, FOMO & Social Pressure: Surviving and Thriving in College",
     creatorDesc:
       "Learn how to deal with overthinking, social pressure, and the fear of missing out while staying mentally strong. Discover the importance of empathy, emotional resilience, and self-awareness in college life.",
     creatorImage: "/images/creators/nitin.png",
@@ -99,12 +99,25 @@ export const creatorData: CreatorDataType[] = [
     month: "July",
   },
   {
-    creatorName: "Malvika Vishwakarma",
+    creatorName: "Manika Vishwakarma",
     creatorTitle:
       "Self Grooming, Confidence & First Impressions",
     creatorDesc:
       "Boost your confidence through self-grooming, styling, and effective first impressions. Learn how personality, appearance, and communication together contribute to personal and professional growth.",
     creatorImage: "/images/creators/malvika.png",
+    cardBg: "bg-[linear-gradient(263deg,#4F1271_5.51%,#004998_99.19%)]",
+    imageBgGradient: "bg-[linear-gradient(180deg,#005BC7_0%,#001732_100%)] ",
+    eventDate: "2026-08-05T10:00:00",
+    date: "05",
+    month: "AUG",
+  },
+    {
+    creatorName: "Aman Gupta",
+    creatorTitle:
+      "Think Like a Founder: Skills, Mindset & Opportunities for the AI Era",
+    creatorDesc:
+      "A dynamic session on thinking beyond conventional career paths, cultivating a founder's mindset, and preparing for the opportunities of tomorrow. Learn how to adapt to technological disruption, harness the power of AI, build problem-solving skills, and transform ideas into meaningful impact in an increasingly innovation-led world.",
+    creatorImage: "/images/creators/aman-2.png",
     cardBg: "bg-[linear-gradient(263deg,#4F1271_5.51%,#004998_99.19%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#005BC7_0%,#001732_100%)] ",
     eventDate: "2026-08-05T10:00:00",
