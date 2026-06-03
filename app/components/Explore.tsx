@@ -1,6 +1,6 @@
 const Explore = () => {
   return (
-  <section className="bg-[#001732] pt-12 md:pt-20 lg:pt-27.5 px-4 font-poppins">
+  <section className="bg-[#001732] pt-12 md:pt-20 lg:pt-27.5 px-4 font-poppins scroll-mt-24"  id="about-launchpad">
   <div className="max-w-397 mx-auto text-center flex flex-col items-center justify-center text-white">
     
     <h2 className="font-domine font-bold text-white leading-tight text-[32px] sm:text-[42px] md:text-[52px] lg:text-[65px]">

@@ -3,7 +3,7 @@ import NpfPopup from "./form/NpfPopup";
 
 const ExploreExperience = () => {
   return (
-    <section className="pt-10 md:pt-16 lg:pt-25.5 px-4 font-poppins scroll-mt-24" id="about-launchpad">
+    <section className="pt-10 md:pt-16 lg:pt-25.5 px-4 font-poppins">
       <div className="max-w-397 mx-auto border border-[#431b77] rounded-[20px] p-6 md:p-8 lg:p-10 bg-[linear-gradient(90.72deg,#002755_0.15%,#297ACE_34.88%,#001732_73.21%)]">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-6">
           {/* Content */}
