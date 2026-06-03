@@ -3,6 +3,7 @@
 @theme inline {
   --font-poppins: var(--font-poppins);
   --font-domine: var(--font-domine);
+  --font-playfair: var(--font-playfair);
 }
 
 @layer base {
@@ -18,6 +19,9 @@
 .font-domine {
   font-family: var(--font-domine);
 }
+.font-playfair {
+  font-family: var(--font-playfair);
+}
 
 @media (max-width: 380px) {
   .mobileGetReady {
@@ -26,9 +30,21 @@
 }
 
 @layer utilities {
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
 
-  .registerBtn button{
-     position: fixed !important;
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+  .registerBtn button {
+    position: fixed !important;
     right: -99px !important;
     top: 32% !important;
     transform: rotate(270deg) !important;
@@ -41,7 +57,7 @@
     border-radius: 10px 10px 0px 0px;
     z-index: 999999;
   }
-  
+
   .downloadBtns button {
     position: fixed !important;
     z-index: 999999;

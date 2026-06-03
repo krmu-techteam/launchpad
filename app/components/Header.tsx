@@ -1,82 +1,129 @@
+"use client";
+
 import Image from "next/image";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
 import NpfPopup from "./form/NpfPopup";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleScroll = (id: string) => {
+    const section = document.getElementById(id);
+
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+
+    setIsOpen(false);
+  };
+
   return (
-    <header className="pb-4 xl:pb-0 px-2.5 sm:px-4 pt-4 md:px-6 md:pt-5">
-      <div className="flex gap-4 flex-row items-center justify-between">
-        {/* Logo */}
-        <div className="w-2/3 sm:w-1/3 xl:w-[20%]">
-          <Image
-            src="/images/krm-logo.png"
-            width={352}
-            height={54}
-            alt="KRMU Logo"
-            className="w-full h-auto"
-          />
-        </div>
+    <header className="bg-[#001732] p-4 md:p-5 font-poppins sticky top-0 z-50">
+      <div className="max-w-441.5 mx-auto">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <div className="w-auto">
+            <Image
+              src="/images/krm-logo.png"
+              width={447}
+              height={68}
+              alt="KRMU Logo"
+              className="w-[180px] sm:w-[250px] lg:w-[447px] h-auto"
+            />
+          </div>
 
-        {/* Clouds */}
-        <div className="xl:w-[60%] hidden xl:flex flex-wrap justify-center gap-3 lg:gap-5">
-          <Image
-            src="/images/cloud-1.png"
-            width={250}
-            height={80}
-            alt="Biggest Creators"
-            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
-          />
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center gap-11">
+            <ul className="text-white flex gap-10 items-center">
+              <li>
+                <button
+                  onClick={() => handleScroll("biggest-creator")}
+                  className="text-[22px] leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
+                >
+                  Biggest Creator
+                </button>
+              </li>
 
-          <Image
-            src="/images/cloud-2.png"
-            width={250}
-            height={80}
-            alt="About LaunchPad"
-            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
-          />
+              <li>
+                <button
+                  onClick={() => handleScroll("about-launchpad")}
+                  className="text-[22px] leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
+                >
+                  About LaunchPad
+                </button>
+              </li>
 
-          <Image
-            src="/images/cloud-3.png"
-            width={250}
-            height={80}
-            alt="Why Attend"
-            className="w-[120px] sm:w-[160px] md:w-[190px] lg:w-[220px] h-auto -mb-1.5"
-          />
-        </div>
+              <li>
+                <button
+                  onClick={() => handleScroll("why-attend")}
+                  className="text-[22px] leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
+                >
+                  Why Attend?
+                </button>
+              </li>
+            </ul>
 
-        {/* Button */}
-        <div className="w-1/3 sm:w-2/3 xl:w-[20%] flex justify-end">
-          {/* <button
-            className="
-          rounded-full
-          bg-[linear-gradient(90deg,#E21F21_0%,#7C1112_100%)]
-          text-white
-          font-semibold
-          px-2.5 py-1.5
-          sm:px-6 sm:py-3
-          md:px-8 md:py-3
-          whitespace-
-          text-sm
-          sm:text-base
-        "
+            <NpfPopup
+              formId="a6a4305c7514b2facc46528871e79634"
+              btnClass="bg-[#CB000D] py-3 px-6.5 text-[22px] leading-8.25 text-white rounded-[10px] npfWidget-a6a4305c7514b2facc46528871e79634"
+              btnText="Register Now"
+              showIcon={false}
+            />
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="lg:hidden text-white"
+            onClick={() => setIsOpen(!isOpen)}
           >
-            Register Now
-          </button> */}
-          <NpfPopup
-            formId={`a6a4305c7514b2facc46528871e79634`}
-            btnClass={`rounded-full
-          bg-[linear-gradient(90deg,#E21F21_0%,#7C1112_100%)]
-          text-white
-          font-semibold
-          px-2.5 py-1.5
-          sm:px-6 sm:py-3
-          md:px-8 md:py-3
-          whitespace-
-          text-sm
-          sm:text-base npfWidget-a6a4305c7514b2facc46528871e79634`}
-            btnText={`Register Now`}
-            showIcon={false}
-          />
+            {isOpen ? <X size={30} /> : <Menu size={30} />}
+          </button>
         </div>
+
+        {/* Mobile Navigation */}
+        {isOpen && (
+          <div className="lg:hidden mt-6 border-t border-white/10 pt-6">
+            <ul className="flex flex-col gap-5 text-white text-lg">
+              <li>
+                <button
+                  onClick={() => handleScroll("biggest-creator")}
+                  className="w-full text-left"
+                >
+                  Biggest Creator
+                </button>
+              </li>
+
+              <li>
+                <button
+                  onClick={() => handleScroll("about-launchpad")}
+                  className="w-full text-left"
+                >
+                  About LaunchPad
+                </button>
+              </li>
+
+              <li>
+                <button
+                  onClick={() => handleScroll("why-attend")}
+                  className="w-full text-left"
+                >
+                  Why Attend?
+                </button>
+              </li>
+            </ul>
+
+            <NpfPopup
+              formId="a6a4305c7514b2facc46528871e79634"
+              btnClass="mt-6 w-full bg-[#CB000D] py-3 px-6 text-white rounded-[10px] text-lg font-medium npfWidget-a6a4305c7514b2facc46528871e79634"
+              btnText="Register Now"
+              showIcon={false}
+            />
+          </div>
+        )}
       </div>
     </header>
   );

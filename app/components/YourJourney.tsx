@@ -1,167 +1,42 @@
-import Image from "next/image";
-import Link from "next/link";
+import React from "react";
 import CommonLeadPopup from "./CommonLeadup";
 import NpfPopup from "./form/NpfPopup";
 
 const YourJourney = () => {
   return (
-    <section className="relative px-4 py-12 md:px-6 lg:py-16">
-      <div className="relative mx-auto max-w-[1664px]">
-        {/* Decorative Clouds */}
-        <Image
-          src="/images/cloud-4.png"
-          alt=""
-          width={200}
-          height={100}
-          className="absolute bottom-full left-8 hidden sm:block"
-        />
-
-        <Image
-          src="/images/cloud-4.png"
-          alt=""
-          width={200}
-          height={100}
-          className="absolute bottom-full right-8 block"
-        />
-
-        {/* Card */}
-        <div
-          className="
-            rounded-[24px]
-            bg-[url(/images/youjourney-bg.webp)]
-            bg-cover
-            bg-center bg-no-repeat
-            overflow-hidden
-            px-6
-            py-10
-            md:px-10
-            md:py-14
-            text-center
-            text-white
-          "
-        >
-          {/* Heading */}
-          <h2
-            className="
-              font-domine
-              font-bold
-              text-2xl
-              sm:text-3xl
-              md:text-[40px]
-              leading-tight
-            "
-          >
+    <section className="py-10 md:py-16 lg:py-20 px-4">
+      <div className="max-w-397 mx-auto border-2 border-[#396DAA] p-6 md:p-8 lg:p-10 rounded-[20px] flex flex-col lg:flex-row items-center justify-between gap-8">
+        <div className="w-full lg:w-1/2 font-poppins text-center lg:text-left">
+          <h5 className="text-white text-[28px] md:text-[34px] lg:text-[40px] font-domine font-bold mb-4 lg:mb-5 leading-tight">
             Your University Journey Starts Here
-          </h2>
+          </h5>
 
-          {/* Subtitle */}
-          <p
-            className="
-              mt-3
-              text-base
-              sm:text-lg
-              md:text-[24px]
-            "
-          >
-            Begin Beyond Boundaries...
-          </p>
+          <h6 className="text-[20px] md:text-[22px] lg:text-[26px] text-white font-normal mb-4 lg:mb-5">
+            Begin Beyond Boundaries…
+          </h6>
 
-          {/* Description */}
-          <p
-            className="
-              mx-auto
-              mt-4
-              max-w-3xl
-              text-sm
-              sm:text-base
-              md:text-lg
-              leading-relaxed
-              text-white/90
-            "
-          >
-            Join KRMU's Launchpad and begin your journey with inspiration,
+          <p className="text-base lg:text-lg text-white mb-0">
+            Join KRMU’s Launchpad and begin your journey with inspiration,
             creativity, connections, and unforgettable experiences.
           </p>
+        </div>
 
-          {/* Buttons */}
-          <div
-            className="
-              mt-8
-              flex
-              flex-col
-              items-center
-              justify-center
-              gap-4
-              sm:flex-row
-            "
-          >
-            {/* <Link
-              href="#"
-              className="
-              
-              "
-            >
-              Register Now
-            </Link> */}
+        <div className="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-end gap-3">
+          <NpfPopup
+            formId={`a6a4305c7514b2facc46528871e79634`}
+            btnClass={`bg-[#CB000D] rounded-[10px] text-white font-medium w-full sm:max-w-58.75 p-4 lg:p-5  npfWidget-a6a4305c7514b2facc46528871e79634`}
+            btnText={`Register Now`}
+            showIcon={false}
+          />
 
-            <NpfPopup
-              formId={`a6a4305c7514b2facc46528871e79634`}
-              btnClass={`
-          w-full
-                sm:w-auto
-                min-w-[220px]
-                rounded-full
-                bg-[#E21F21]
-                px-8
-                py-4
-                text-center
-                font-semibold
-                text-white
-                transition
-                hover:opacity-90
-          sm:text-base npfWidget-a6a4305c7514b2facc46528871e79634`}
-              btnText={`Register Now`}
-              showIcon={false}
-            />
-
-            {/* <Link
-              href="#"
-              className="
-                w-full
-                sm:w-auto
-                min-w-[220px]
-                rounded-full
-                bg-white
-                px-8
-                py-4
-                text-center
-                font-semibold
-                text-black
-                transition
-                hover:bg-gray-100
-              "
-            >
-              Download Brochure
-            </Link> */}
-
-            <CommonLeadPopup
-              buttonText={"Download Brochure"}
-              buttonClassName="w-full
-                sm:w-auto
-                min-w-[220px]
-                rounded-full
-                bg-white
-                px-8
-                py-4
-                text-center
-                font-semibold
-                text-black
-                transition
-                hover:bg-gray-100"
-              redirectUrl={"https://launchpad.krmangalam.edu.in/launchpad-brochure.pdf"}
-              form_name="Download Brochure"
-            />
-          </div>
+          <CommonLeadPopup
+            buttonText={"Download Brochure"}
+            buttonClassName="bg-white rounded-[10px] text-black font-medium w-full sm:max-w-58.75 p-4 lg:p-5"
+            redirectUrl={
+              "https://launchpad.krmangalam.edu.in/launchpad-brochure.pdf"
+            }
+            form_name="Download Brochure"
+          />
         </div>
       </div>
     </section>

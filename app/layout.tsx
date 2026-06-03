@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Domine, Geist, Geist_Mono, Poppins } from "next/font/google";
+import {
+  Domine,
+  Geist,
+  Geist_Mono,
+  Playfair_Display,
+  Poppins,
+} from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import CommonLeadPopup from "./components/CommonLeadup";
@@ -17,6 +23,12 @@ export const domine = Domine({
   variable: "--font-domine",
 });
 
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-playfair",
+});
+
 export const metadata: Metadata = {
   title: "The Launchpad",
   description: "",
@@ -30,12 +42,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${poppins.variable} ${domine.variable} h-full antialiased`}
+      className={`${poppins.variable} ${domine.variable} ${playfairDisplay.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col bg-[#001732]">
         <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );

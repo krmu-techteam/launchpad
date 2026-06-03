@@ -1,18 +1,24 @@
 import Hero from "./components/Hero";
 import Explore from "./components/Explore";
+import BiggestCreator from "./components/BiggestCreator";
+import ExploreExperience from "./components/ExploreExperience";
+import WhatIsLaunchpad from "./components/WhatIsLaunchpad";
 import GetReady from "./components/GetReady";
 import YourJourney from "./components/YourJourney";
-import BiggestCreator from "./components/BiggestCreator";
+
 
 export default function Home() {
   return (
     <>
+      {/* 
+      */}
       <Hero />
       <Explore />
+      <ExploreExperience />
       <BiggestCreator />
+      <WhatIsLaunchpad /> 
       <GetReady />
-      <YourJourney />
-      
+      <YourJourney /> 
     </>
   );
 }
