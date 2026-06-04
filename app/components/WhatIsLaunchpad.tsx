@@ -19,18 +19,18 @@ const WhatIsLaunchpad = () => {
           />
 
           <h4 className="font-domine text-[24px] md:text-[28px] lg:text-[32px] leading-tight text-white mb-4">
-            What is KRMU’s Launchpad?
+            What is KRMU’s LAUNCHPAD?
           </h4>
 
           <p className="text-white text-sm md:text-base mb-6 md:mb-8">
-            KRMU’s Launchpad is a specially curated pre-enrollment engagement
+            KRMU’s LAUNCHPAD is a specially curated pre-enrollment engagement
             programme designed to inspire, empower, and prepare students for the
             journey ahead
           </p>
           <p className="text-white text-sm md:text-base mb-6 md:mb-8">
             Through enriching sessions on career readiness, personal growth,
             creator economy trends, networking, motivation, communication, and
-            student life skills, KRMU’s Launchpad helps students become
+            student life skills, KRMU’s LAUNCHPAD helps students become
             future-ready before they even begin their academic journey.
           </p>
           <p className="text-white text-sm md:text-base mb-6 md:mb-8">
@@ -90,7 +90,7 @@ const WhatIsLaunchpad = () => {
         {/* Right Card */}
         <div className="w-full xl:w-1/2 bg-[linear-gradient(320.09deg,#032A66_62.28%,#1D54A6_92.13%)] p-5 md:p-8 lg:p-11 rounded-[20px]">
           <h4 className="font-domine text-[24px] md:text-[28px] lg:text-[32px] leading-tight text-white mb-4">
-            Why Attend KRMU’s Launchpad?
+            Why Attend KRMU’s LAUNCHPAD?
           </h4>
 
           <p className="text-white text-sm md:text-base mb-6 md:mb-5">
@@ -146,7 +146,7 @@ const WhatIsLaunchpad = () => {
           <div className="w-full border border-white/20 mt-6 md:mt-7 mb-5"></div>
 
           <p className="text-white text-base md:text-lg text-center mb-0">
-            KRMU’s Launchpad is designed to help students begin their university
+            KRMU’s LAUNCHPAD is designed to help students begin their university
             journey with confidence, clarity, and motivation.
           </p>
         </div>
