@@ -81,7 +81,7 @@ const CreatorCard = ({
       }}
     >
       <motion.div
-        style={{ scale }}
+        // style={{ scale }}
         className={`
           ${data.cardBg}
           w-full
@@ -105,7 +105,7 @@ const CreatorCard = ({
             {data.date}
           </h5>
 
-          <h6 className="text-xs md:text-sm lg:text-base font-normal">
+          <h6 className="text-xs md:text-sm lg:text-base font-normal uppercase">
             {data.month}
           </h6>
         </div>
@@ -134,7 +134,7 @@ const CreatorCard = ({
             width={444}
             height={444}
             alt=""
-            className="absolute w-[220px] md:w-[280px] lg:w-full h-auto hidden"
+            className="absolute w-[220px] md:w-[280px] lg:w-full h-auto"
           />
 
           <div

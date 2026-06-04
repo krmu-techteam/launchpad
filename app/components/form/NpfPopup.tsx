@@ -33,10 +33,10 @@ const NpfPopup = ({
       url.searchParams.set("utm_medium", "Website");
       changed = true;
     }
-    if (!url.searchParams.has("utm_campaign")) {
-      url.searchParams.set("utm_campaign", "launchpad_2026");
-      changed = true;
-    }
+    // if (!url.searchParams.has("utm_campaign")) {
+    //   url.searchParams.set("utm_campaign", "launchpad_2026");
+    //   changed = true;
+    // }
 
     if (changed) {
       window.history.replaceState({}, "", url.toString());
@@ -44,7 +44,7 @@ const NpfPopup = ({
 
     const utmSource = url.searchParams.get("utm_source");
     const utmMedium = url.searchParams.get("utm_medium");
-    const utmCampaign = url.searchParams.get("utm_campaign");
+    // const utmCampaign = url.searchParams.get("utm_campaign");
 
     loadNpfScript()
       .then(() => {
@@ -60,8 +60,9 @@ const NpfPopup = ({
 
           m_source: utmSource,
           m_medium: utmMedium,
-          m_campaign: utmCampaign,
-          extraparams: `utm_source=${utmSource}&utm_medium=${utmMedium}&utm_campaign=${utmCampaign}`,
+          // m_campaign: utmCampaign,
+          extraparams: `utm_source=${utmSource}&utm_medium=${utmMedium}`,
+          // extraparams: `utm_source=${utmSource}&utm_medium=${utmMedium}&utm_campaign=${utmCampaign}`,
         };
 
         // @ts-ignore

@@ -30,8 +30,8 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "The Launchpad",
-  description: "",
+  title: "KRMU Launchpad 2026 | K.R. Mangalam University",
+  description: "Join KRMU Launchpad 2026 - A Pre-Enrollment Programme with sessions by top creators & industry leaders. Build skills & confidence. Register Now!",
 };
 
 export default function RootLayout({

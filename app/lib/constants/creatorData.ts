@@ -105,11 +105,11 @@ export const creatorData: CreatorDataType[] = [
     creatorDesc:
       "Boost your confidence through self-grooming, styling, and effective first impressions. Learn how personality, appearance, and communication together contribute to personal and professional growth.",
     creatorImage: "/images/creators/malvika.png",
-    cardBg: "bg-[linear-gradient(263deg,#4F1271_5.51%,#004998_99.19%)]",
+    cardBg: "bg-[linear-gradient(263.45deg,#004E23_3.12%,#4B5875_97.48%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#005BC7_0%,#001732_100%)] ",
-    eventDate: "2026-08-05T10:00:00",
-    date: "05",
-    month: "AUG",
+    eventDate: "2026-07-29T10:00:00",
+    date: "29",
+    month: "JUNE",
   },
     {
     creatorName: "Aman Gupta",

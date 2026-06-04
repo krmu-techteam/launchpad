@@ -14,7 +14,7 @@ const BiggestCreator = () => {
   });
 
   return (
-    <section className="py-10 md:py-16 lg:py-20 px-4 scroll-mt-24" id="biggest-creator">
+    <section className="py-10 md:py-16 lg:py-20 px-6 sm:px-8 lg:px-10 xl:px-16 scroll-mt-24" id="biggest-creator">
       <div className="max-w-247.75 mx-auto w-full font-poppins text-white text-center">
         <h4 className="font-domine text-3xl md:text-4xl lg:text-[56px] font-bold leading-tight lg:leading-16 mb-2.5">
           Learn From India’s Biggest Creators

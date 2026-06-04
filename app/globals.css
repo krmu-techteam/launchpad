@@ -41,7 +41,7 @@
   }
 
   .animate-marquee {
-    animation: marquee 20s linear infinite;
+    animation: marquee 80s linear infinite;
   }
   .registerBtn button {
     position: fixed !important;

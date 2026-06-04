@@ -4,7 +4,7 @@ import NpfPopup from "./form/NpfPopup";
 
 const YourJourney = () => {
   return (
-    <section className="py-10 md:py-16 lg:py-20 px-4">
+    <section className="py-10 md:py-16 lg:py-20 px-6 sm:px-8 lg:px-10 xl:px-16">
       <div className="max-w-397 mx-auto border-2 border-[#396DAA] p-6 md:p-8 lg:p-10 rounded-[20px] flex flex-col lg:flex-row items-center justify-between gap-8">
         <div className="w-full lg:w-1/2 font-poppins text-center lg:text-left">
           <h5 className="text-white text-[28px] md:text-[34px] lg:text-[40px] font-domine font-bold mb-4 lg:mb-5 leading-tight">
@@ -16,7 +16,7 @@ const YourJourney = () => {
           </h6>
 
           <p className="text-base lg:text-lg text-white mb-0">
-            Join KRMU’s LAUNCHPAD and begin your journey with inspiration,
+            Join KRMU’s Launchpad and begin your journey with inspiration,
             creativity, connections, and unforgettable experiences.
           </p>
         </div>

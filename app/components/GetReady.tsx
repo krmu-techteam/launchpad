@@ -6,16 +6,24 @@ const images = [
   "/images/krmu-band.webp",
   "/images/jasmine.webp",
   "/images/parmish.webp",
+  "/images/events/event-1.jpg",
+  "/images/events/event-2.jpg",
+  "/images/events/event-3.jpg",
+  "/images/events/event-4.jpg",
+  "/images/events/event-5.jpg",
+  "/images/events/event-7.jpg",
+  "/images/events/event-9.jpg",
+  "/images/events/event-10.jpg",
 ];
 
 export default function GetReady() {
   const duplicatedImages = [...images, ...images];
 
   return (
-    <section className="px-4 md:px-5 overflow-hidden">
+    <section className="px-6 sm:px-8 lg:px-10 xl:px-16 overflow-hidden">
       <div className="font-poppins">
         <h4 className="text-center text-white text-3xl md:text-4xl lg:text-[51px] font-domine mb-8 md:mb-10">
-          Get Ready for the Experience
+          A Campus That Never Stops Inspiring
         </h4>
 
         <div className="relative overflow-hidden">
