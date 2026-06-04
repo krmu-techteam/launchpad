@@ -14,6 +14,8 @@ const images = [
   "/images/events/event-7.jpg",
   "/images/events/event-9.jpg",
   "/images/events/event-10.jpg",
+  "/images/events/event-11.jpg",
+  "/images/events/event-12.jpg",
 ];
 
 export default function GetReady() {

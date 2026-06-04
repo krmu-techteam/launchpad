@@ -75,7 +75,7 @@ const CreatorCard = ({
 
   return (
     <div
-      className="sticky top-0 h-[780px] sm:h-[760px] md:h-[700px] lg:h-[500px]"
+      className="sticky top-0 h-195 sm:h-162.5 md:h-175 lg:h-125"
       style={{
         top: `${i * 20}px`,
       }}
@@ -128,13 +128,13 @@ const CreatorCard = ({
         />
 
         {/* Creator Image */}
-        <div className="w-full lg:w-1/4 relative flex justify-center">
+        <div className="w-full lg:w-1/2 2xl:w-1/4 relative flex justify-center">
           <Image
             src="/images/circle-dashed.png"
             width={444}
             height={444}
             alt=""
-            className="absolute w-[220px] md:w-[280px] lg:w-full h-auto hidden"
+            className="absolute w-55 md:w-70 lg:w-full h-auto hidden"
           />
 
           <div
@@ -145,13 +145,13 @@ const CreatorCard = ({
               width={387}
               height={387}
               alt={data.creatorName}
-              className="rounded-full w-[180px] md:w-[240px] lg:w-full h-auto"
+              className="rounded-full w-45 lg:w-75 xl:w-100 h-auto"
             />
           </div>
         </div>
 
         {/* Content */}
-        <div className="w-full lg:w-3/4 text-center lg:text-left">
+        <div className="w-full lg:w-1/2 2xl:w-3/4 text-center lg:text-left">
           <h4 className="font-playfair text-2xl md:text-3xl lg:text-4xl leading-tight text-white">
             {data.creatorName}
           </h4>

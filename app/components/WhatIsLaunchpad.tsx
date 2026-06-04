@@ -4,7 +4,7 @@ import Image from "next/image";
 const WhatIsLaunchpad = () => {
   return (
     <section
-      className="py-10 md:py-16 lg:pb-20 lg:pt-0 px-6 sm:px-8 lg:px-10 xl:px-16 scroll-mt-24 mt-10 sm:mt-0"
+      className="pb-10 md:pb-16 lg:pb-20  px-6 sm:px-8 lg:px-10 xl:px-16 scroll-mt-24 mt-15 sm:mt-0 lg:mt-20 xl:mt-10 pt-10 sm:pt-0 xl:pt-10 2xl:mt-0 2xl:pt-0"
       id="why-attend"
     >
       <div className="max-w-397 mx-auto w-full flex flex-col xl:flex-row gap-6 lg:gap-10 items-stretch font-poppins">
