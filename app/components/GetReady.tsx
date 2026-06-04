@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const images = [
   "/images/krmu-band.webp",
-  "/images/jasmine.webp",
+  // "/images/jasmine.webp",
   "/images/parmish.webp",
   "/images/events/event-1.jpg",
-  "/images/events/event-2.jpg",
+  // "/images/events/event-2.jpg",
   "/images/events/event-3.jpg",
   "/images/events/event-4.jpg",
   "/images/events/event-5.jpg",

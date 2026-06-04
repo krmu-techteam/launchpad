@@ -1,25 +1,39 @@
+import { Mail, Phone } from "lucide-react";
 import CommonLeadPopup from "./CommonLeadup";
 import NpfPopup from "./form/NpfPopup";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <>
-      <div className="registerBtn">
-        <NpfPopup
-          formId={`a6a4305c7514b2facc46528871e79634`}
-          btnClass={` npfWidget-a6a4305c7514b2facc46528871e79634`}
-          btnText={`Register Now`}
-          showIcon={false}
-        />
-      </div>
-      <div className="downloadBtns">
-        <CommonLeadPopup
-          buttonText={"Download Brochure"}
-          buttonClassName=""
-          redirectUrl={"https://launchpad.krmangalam.edu.in/launchpad2026-brochure.pdf"}
-          form_name="Download Brochure"
-        />
-      </div>
+      <footer className="bg-[#00234d] p-5 lg:py-10 px-6 sm:px-8 lg:px-10 xl:px-16">
+        <div className="max-w-397 mx-auto w-full flex items-center justify-between gap-2.5 flex-col lg:flex-row">
+          <ul className="flex flex-col sm:flex-row items-center gap-2.5 sm:gap-5 text-white">
+            <li>
+              <Link
+                href="mailto:launchpad@krmangalam.edu.in"
+                className="flex items-center gap-2"
+              >
+                <Mail color="#fff" />{" "}
+                <span className="text-lg">launchpad@krmangalam.edu.in</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="tel:+918192888444"
+                className="flex items-center gap-2"
+              >
+                <Phone color="#fff" />{" "}
+                <span className="text-lg">+91-8192888444</span>
+              </Link>
+            </li>
+          </ul>
+
+          <p className="mb-0 text-lg text-white">
+            &copy; Copyright 2026 K.R. Mangalam University
+          </p>
+        </div>
+      </footer>
     </>
   );
 };

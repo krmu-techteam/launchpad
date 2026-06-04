@@ -63,10 +63,10 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
 
   return (
     <div
-      className="sticky top-0 sm:h-195 sm:h-162.5 md:h-175 lg:h-125"
-      style={{
-        top: `${i * 20}px`,
-      }}
+      className="sticky top-0 sm:h-162.5 md:h-175 lg:h-125"
+      // style={{
+      //   top: `${i * 20}px`,
+      // }}
     >
       <motion.div
         // style={{ scale }}
@@ -83,18 +83,18 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
           flex-col
           lg:flex-row
           items-center
-          gap-5
+          gap-2.5
+          sm:gap-5
           lg:gap-8
-          2xl:gap-10
         `}
       >
         {/* Date Badge */}
-        <div className="absolute top-4 right-4 md:top-5 md:right-5 z-20 text-center text-white font-poppins w-16 h-16 md:w-18 md:h-18 xl:w-21.75 xl:h-21.75 flex flex-col items-center justify-center rounded-[10px] border border-dashed border-white">
-          <h5 className="font-bold text-xl md:text-2xl lg:text-[28px]">
+        <div className="absolute top-4 right-4 md:top-5 md:right-5 z-20 text-center text-white font-poppins w-16 h-16 md:w-18 md:h-18 2xl:w-[115px] 2xl:h-[109px] p-1 flex flex-col items-center justify-center rounded-[20px] border border-dashed border-white">
+          <h5 className="font-bold text-xl md:text-2xl 2xl:text-[45px] leading-relaxed">
             {data.date}
           </h5>
 
-          <h6 className="text-xs md:text-sm lg:text-base font-normal uppercase">
+          <h6 className="text-xs md:text-sm lg:text-[22px] font-normal uppercase">
             {data.month}
           </h6>
         </div>
@@ -123,7 +123,7 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
             width={444}
             height={444}
             alt=""
-            className="absolute w-55 md:w-70 lg:w-full h-auto hidden"
+            className="absolute w-55 md:w-70 lg:w-full h-auto hidden sm:block"
           />
 
           <div
@@ -141,26 +141,26 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
 
         {/* Content */}
         <div className="w-full lg:w-[65%] xl:w-3/4 text-center lg:text-left">
-          <h4 className="font-playfair text-2xl md:text-3xl lg:text-4xl leading-tight font-semibold text-white">
+          <h4 className="font-playfair text-2xl md:text-3xl lg:text-4xl leading-tight font-semibold text-white mb-2.5">
             {data.creatorName}
           </h4>
 
-          <h5 className="text-lg md:text-xl lg:text-2xl text-[#E7C268] font-bold font-playfair mb-4 md:mb-5 tracking-[1.2px]">
+          <h5 className="text-sm md:text-xl lg:text-2xl text-[#E7C268] font-bold font-playfair max-w-[580px] 2xl:max-w-[850px] mb-4 md:mb-5 tracking-[1.2px]">
             {data.creatorTitle}
           </h5>
 
-          <p className="text-white text-sm md:text-base lg:text-lg leading-6 lg:leading-6.75 mb-6 lg:mb-8">
+          <p className="text-white text-sm md:text-base lg:text-lg leading-snug text-justify sm:text-left sm:leading-6 lg:leading-6.75 mb-2.5 lg:mb-8 max-w-[917px] w-full hyphens-auto ">
             {data.creatorDesc}
           </p>
 
           {/* Countdown */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-full lg:max-w-114.5">
+          <div className="grid grid-cols-4 gap-3 max-w-full w-auto lg:max-w-[360px]">
             {countdownItems.map((item) => (
               <div
                 key={item.label}
-                className="text-center text-white font-poppins h-20 md:h-24 lg:h-26.25 flex flex-col items-center justify-center border-2 border-[#6e77af] rounded-[10px]"
+                className="text-center text-white w-auto font-poppins w-[80px] h-[80px] flex flex-col items-center justify-center md:border-2 border-white/20 rounded-[10px]"
               >
-                <h5 className="font-bold text-xl md:text-2xl lg:text-[28px]">
+                <h5 className="font-bold text-xl md:text-2xl lg:text-[27px]">
                   {String(item.value).padStart(2, "0")}
                 </h5>
 

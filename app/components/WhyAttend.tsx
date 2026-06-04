@@ -5,12 +5,12 @@ const WhyAttend = () => {
   return (
     <section className="px-6 sm:px-8 lg:px-10 xl:px-16">
       <div className="max-w-396.75 mx-auto w-full flex flex-col xl:flex-row bg-[linear-gradient(320.09deg,#032A66_62.28%,#1D54A6_92.13%)] rounded-[20px]">
-        <div className="xl:w-1/2 p-5 md:p-10">
-          <h4 className="font-domine text-[24px] md:text-[28px] lg:text-[32px] leading-tight text-white mb-4">
+        <div className="xl:w-3/5 p-5 md:p-10">
+          <h4 className="font-domine text-[24px] md:text-[28px] lg:text-[41px] font-semibold leading-tight text-white mb-4">
             Why Attend KRMU’s LAUNCHPAD?
           </h4>
 
-          <p className="text-white text-sm md:text-base mb-6 md:mb-5">
+          <p className="text-white text-sm md:text-base mb-2.5">
             Because your university journey should begin with inspiration and
             preparation.
           </p>
@@ -21,7 +21,7 @@ const WhyAttend = () => {
             At KRMU's LAUNCHPAD, students get the opportunity to:
           </p>
 
-          <ul className="text-base md:text-lg text-white font-normal flex flex-col gap-5">
+          <ul className="text-base md:text-lg text-white font-normal flex flex-col gap-2.5">
             <li className="flex items-start gap-4">
               <CircleArrowRight color="#fff" className="min-w-5 mt-1" />
               <span>
@@ -67,7 +67,7 @@ const WhyAttend = () => {
             journey with confidence, clarity, and motivation.
           </p>
         </div>
-        <div className="xl:w-1/2 flex justify-center items-end">
+        <div className="xl:w-2/5 flex justify-center items-end">
             <Image src="/images/launchpad-girl.png" width={705} height={575} alt="" className="object-contain  w-full" />
         </div>
       </div>

@@ -6,7 +6,7 @@ const YourJourney = () => {
   return (
     <section className="py-10 md:py-16 lg:py-20 px-6 sm:px-8 lg:px-10 xl:px-16">
       <div className="max-w-397 mx-auto border-2 border-[#396DAA] p-6 md:p-8 lg:p-10 rounded-[20px] flex flex-col lg:flex-row items-center justify-between gap-8">
-        <div className="w-full lg:w-1/2 font-poppins text-center lg:text-left">
+        <div className="w-full lg:w-3/5 font-poppins text-center lg:text-left">
           <h5 className="text-white text-[28px] md:text-[34px] lg:text-[40px] font-domine font-bold mb-4 lg:mb-5 leading-tight">
             Your University Journey Starts Here
           </h5>
@@ -21,7 +21,7 @@ const YourJourney = () => {
           </p>
         </div>
 
-        <div className="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-end gap-3">
+        <div className="w-full lg:w-2/5 flex flex-col justify-center items-center lg:items-end gap-3">
           <NpfPopup
             formId={`a6a4305c7514b2facc46528871e79634`}
             btnClass={`bg-[#CB000D] rounded-[10px] text-white font-medium w-full sm:max-w-58.75 p-4 lg:p-5  npfWidget-a6a4305c7514b2facc46528871e79634`}
