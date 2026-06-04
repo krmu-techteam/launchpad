@@ -25,9 +25,9 @@ export const creatorData: CreatorDataType[] = [
   },
   {
     creatorName: "Aparshakti Khurana",
-    creatorTitle: "Storytelling Skills That Make You Stand Out",
+    creatorTitle: "Life lessons & power of perseverance",
     creatorDesc:
-      "Master the art of storytelling to express ideas with clarity, confidence, and creativity. Learn how effective communication skills can help you leave a lasting impression in every sphere of life.",
+      "A candid conversation on embracing challenges, staying resilient through setbacks, discovering one’s true potential, and navigating the journey from aspirations to achievements. Gain insights into personal growth, self-belief, and the mindset required to turn obstacles into opportunities.",
     creatorImage: "/images/creators/apar.png",
     cardBg: "bg-[linear-gradient(263.53deg,#116490_-1.31%,#721361_98.73%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#005BC7_0%,#001732_100%)] ",
