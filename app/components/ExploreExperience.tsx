@@ -3,13 +3,14 @@ import NpfPopup from "./form/NpfPopup";
 
 const ExploreExperience = () => {
   return (
-    <section className="pt-10 md:pt-16 lg:pt-25.5 px-6 sm:px-8 lg:px-10 xl:px-16 font-poppins">
+    <section className="pt-10 md:pt-16 lg:pt-20 px-6 sm:px-8 lg:px-10 xl:px-16 font-poppins">
       <div className="max-w-397 mx-auto border border-[#431b77] rounded-[20px] p-6 md:p-8 lg:p-10 bg-[linear-gradient(90.72deg,#002755_0.15%,#297ACE_34.88%,#001732_73.21%)]">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-6">
           {/* Content */}
           <div className="w-full lg:w-1/2 text-white text-center lg:text-left">
-            <h3 className="text-[28px] md:text-[36px] lg:text-[42px] font-medium leading-tight lg:leading-15.75 mb-2">
-              Explore the Experience
+            <h3 className="text-2xl md:text-3xl font-medium leading-tight mb-2">
+              {/* Explore the Experience */}
+              Get Inspired. Get Connected. Get Future-Ready.
             </h3>
 
             <p className="text-base md:text-lg lg:text-xl">
@@ -30,7 +31,7 @@ const ExploreExperience = () => {
               buttonText={"Download Brochure"}
               buttonClassName="bg-white rounded-[10px] text-black font-medium w-full sm:max-w-58.75 p-4 lg:p-5"
               redirectUrl={
-                "https://launchpad.krmangalam.edu.in/launchpad-brochure.pdf"
+                "https://launchpad.krmangalam.edu.in/launchpad2026-brochure.pdf"
               }
               form_name="Download Brochure"
             />

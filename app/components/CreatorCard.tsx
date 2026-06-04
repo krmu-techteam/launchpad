@@ -13,13 +13,7 @@ type Props = {
   targetScale: number;
 };
 
-const CreatorCard = ({
-  data,
-  i,
-  progress,
-  range,
-  targetScale,
-}: Props) => {
+const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
   const scale = useTransform(progress, range, [1, targetScale]);
 
   const [timeLeft, setTimeLeft] = useState({
@@ -44,15 +38,9 @@ const CreatorCard = ({
       }
 
       return {
-        days: Math.floor(
-          difference / (1000 * 60 * 60 * 24)
-        ),
-        hours: Math.floor(
-          (difference / (1000 * 60 * 60)) % 24
-        ),
-        minutes: Math.floor(
-          (difference / (1000 * 60)) % 60
-        ),
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / (1000 * 60)) % 60),
         seconds: Math.floor((difference / 1000) % 60),
       };
     };
@@ -75,7 +63,7 @@ const CreatorCard = ({
 
   return (
     <div
-      className="sticky top-0 h-195 sm:h-162.5 md:h-175 lg:h-125"
+      className="sticky top-0 sm:h-195 sm:h-162.5 md:h-175 lg:h-125"
       style={{
         top: `${i * 20}px`,
       }}
@@ -90,18 +78,19 @@ const CreatorCard = ({
           overflow-hidden
           p-5
           md:p-8
-          lg:p-15
+          lg:p-10
           flex
           flex-col
           lg:flex-row
           items-center
-          gap-8
-          2xl:gap-24
+          gap-5
+          lg:gap-8
+          2xl:gap-10
         `}
       >
         {/* Date Badge */}
-        <div className="absolute top-4 right-4 md:top-5 md:right-5 z-20 text-center text-white font-poppins w-16 h-16 md:w-20 md:h-20 lg:w-21.75 lg:h-21.75 flex flex-col items-center justify-center rounded-[10px] border border-dashed border-white">
-          <h5 className="font-bold text-xl md:text-2xl lg:text-3xl">
+        <div className="absolute top-4 right-4 md:top-5 md:right-5 z-20 text-center text-white font-poppins w-16 h-16 md:w-18 md:h-18 xl:w-21.75 xl:h-21.75 flex flex-col items-center justify-center rounded-[10px] border border-dashed border-white">
+          <h5 className="font-bold text-xl md:text-2xl lg:text-[28px]">
             {data.date}
           </h5>
 
@@ -128,7 +117,7 @@ const CreatorCard = ({
         />
 
         {/* Creator Image */}
-        <div className="w-full lg:w-1/2 2xl:w-1/4 relative flex justify-center">
+        <div className="w-full lg:w-[35%] xl:w-1/4 relative flex justify-center">
           <Image
             src="/images/circle-dashed.png"
             width={444}
@@ -151,8 +140,8 @@ const CreatorCard = ({
         </div>
 
         {/* Content */}
-        <div className="w-full lg:w-1/2 2xl:w-3/4 text-center lg:text-left">
-          <h4 className="font-playfair text-2xl md:text-3xl lg:text-4xl leading-tight text-white">
+        <div className="w-full lg:w-[65%] xl:w-3/4 text-center lg:text-left">
+          <h4 className="font-playfair text-2xl md:text-3xl lg:text-4xl leading-tight font-semibold text-white">
             {data.creatorName}
           </h4>
 

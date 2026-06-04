@@ -16,7 +16,7 @@ const Footer = () => {
         <CommonLeadPopup
           buttonText={"Download Brochure"}
           buttonClassName=""
-          redirectUrl={"https://launchpad.krmangalam.edu.in/launchpad-brochure.pdf"}
+          redirectUrl={"https://launchpad.krmangalam.edu.in/launchpad2026-brochure.pdf"}
           form_name="Download Brochure"
         />
       </div>

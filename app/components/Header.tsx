@@ -22,7 +22,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-[#001732] p-4 md:p-5 font-poppins sticky top-0 z-50">
+    <header className="bg-[#001732] p-4 md:p-5 font-poppins">
       <div className="max-w-441.5 mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -42,7 +42,7 @@ const Header = () => {
               <li>
                 <button
                   onClick={() => handleScroll("biggest-creator")}
-                  className="text-[22px] leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
+                  className="text-lg leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
                 >
                   Biggest Creators
                 </button>
@@ -51,7 +51,7 @@ const Header = () => {
               <li>
                 <button
                   onClick={() => handleScroll("about-launchpad")}
-                  className="text-[22px] leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
+                  className="text-lg leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
                 >
                   About LAUNCHPAD
                 </button>
@@ -60,7 +60,7 @@ const Header = () => {
               <li>
                 <button
                   onClick={() => handleScroll("why-attend")}
-                  className="text-[22px] leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
+                  className="text-lg leading-8.25 cursor-pointer hover:text-[#E7C268] transition-colors"
                 >
                   Why Attend?
                 </button>
@@ -69,7 +69,7 @@ const Header = () => {
 
             <NpfPopup
               formId="a6a4305c7514b2facc46528871e79634"
-              btnClass="bg-[#CB000D] py-3 px-6.5 text-[22px] leading-8.25 text-white rounded-[10px] npfWidget-a6a4305c7514b2facc46528871e79634"
+              btnClass="bg-[#CB000D] py-1.5 px-6.5 text-lg leading-8.25 text-white rounded-[10px] npfWidget-a6a4305c7514b2facc46528871e79634"
               btnText="Register Now"
               showIcon={false}
             />

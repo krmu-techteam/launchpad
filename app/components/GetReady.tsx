@@ -22,7 +22,7 @@ export default function GetReady() {
   const duplicatedImages = [...images, ...images];
 
   return (
-    <section className="px-6 sm:px-8 lg:px-10 xl:px-16 overflow-hidden">
+    <section className="px-6 sm:px-8 lg:px-10 xl:px-16 pt-20 overflow-hidden">
       <div className="font-poppins">
         <h4 className="text-center text-white text-3xl md:text-4xl lg:text-[51px] font-domine mb-8 md:mb-10">
           A Campus That Never Stops Inspiring

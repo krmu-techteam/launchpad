@@ -13,10 +13,10 @@ export default function Home() {
       {/* 
       */}
       <Hero />
+      <WhatIsLaunchpad /> 
       <Explore />
       <ExploreExperience />
       <BiggestCreator />
-      <WhatIsLaunchpad /> 
       <GetReady />
       <YourJourney /> 
     </>
