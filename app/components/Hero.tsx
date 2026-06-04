@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="w-full">
       <div className="relative w-full">
         <Image
-          src="/images/banner-4.webp"
+          src="/images/hero-banner-4.png"
           alt="LaunchPad Hero"
           width={1920}
           height={1080}
