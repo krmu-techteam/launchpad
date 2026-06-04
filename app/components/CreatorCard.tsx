@@ -96,7 +96,7 @@ const CreatorCard = ({
           lg:flex-row
           items-center
           gap-8
-          lg:gap-24
+          2xl:gap-24
         `}
       >
         {/* Date Badge */}
@@ -134,7 +134,7 @@ const CreatorCard = ({
             width={444}
             height={444}
             alt=""
-            className="absolute w-[220px] md:w-[280px] lg:w-full h-auto"
+            className="absolute w-[220px] md:w-[280px] lg:w-full h-auto hidden"
           />
 
           <div
