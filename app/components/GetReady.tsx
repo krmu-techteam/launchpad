@@ -37,7 +37,7 @@ export default function GetReady() {
                   relative
                   flex-shrink-0
                   w-[280px]
-                  h-[180px]
+                  h-[240px]
                   sm:w-[350px]
                   sm:h-[220px]
                   md:w-[450px]

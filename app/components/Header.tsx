@@ -32,7 +32,7 @@ const Header = () => {
               width={447}
               height={68}
               alt="KRMU Logo"
-              className="w-[180px] sm:w-[250px] lg:w-[447px] h-auto"
+              className="w-[180px] sm:w-[250px] 2xl:w-[447px] h-auto"
             />
           </div>
 
