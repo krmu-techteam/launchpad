@@ -153,7 +153,7 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
             alt=""
             className="absolute  sm:w-[230px]  lg:w-full h-auto hidden sm:block"
           />
-
+s
           <div
             className={`${data.imageBgGradient} rounded-full p-3 md:p-4 m-3`}
           >
@@ -183,7 +183,7 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
               alt="Dot Border"
             />
             <h5 className="text-sm md:text-xl lg:text-2xl text-[#E7C268] font-bold font-playfair max-w-[580px] xl:max-w-[850px] mt-3 mb-4 md:mb-5 tracking-[1.2px]">
-              <span className="font-extrabold">Session Topic:</span>{" "}
+              <span className="font-extrabold text-white">Session Topic:</span>{" "}
               {data.creatorTitle}
             </h5>
           </div>
