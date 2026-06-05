@@ -97,8 +97,9 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
           sm:gap-5
           lg:gap-8
           h-auto
-          lg:h-[450px]
-          
+          sm:h-[730px]
+          lg:h-[500px]
+          xl:h-[450px]
           2xl:h-auto
         `}
       >
@@ -211,7 +212,7 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
             <Link
               href={data.qrUrl}
               target="_blank"
-              className="border border-white py-2 px-5 rounded-[10px] text-white mt-2 inline-block cursor-pointer lg:hidden"
+              className="border border-white py-2 px-5 rounded-[10px] text-white my-3 inline-block cursor-pointer lg:hidden"
             >
               Click Here
             </Link>
