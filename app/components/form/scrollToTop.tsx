@@ -32,12 +32,13 @@ const ScrollToTop = () => {
       onClick={scrollToTop}
       aria-label="Scroll to top"
      className="
+     hidden
   fixed
   bottom-14
   lg:bottom-6
   right-4
   z-50
-  flex
+  lg:flex
   h-12
   w-12
   items-center
