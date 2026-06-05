@@ -25,7 +25,7 @@ export const creatorData: CreatorDataType[] = [
   },
   {
     creatorName: "Aparshakti Khurana",
-    creatorTitle: "Life lessons & power of perseverance",
+    creatorTitle: "Life Lessons & Power of Perseverance",
     creatorDesc:
       "A candid conversation on embracing challenges, staying resilient through setbacks, discovering one’s true potential, and navigating the journey from aspirations to achievements. Gain insights into personal growth, self-belief, and the mindset required to turn obstacles into opportunities.",
     creatorImage: "/images/content-creators/aparshakti.png",

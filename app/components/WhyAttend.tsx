@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const WhyAttend = () => {
   return (
-    <section className="px-6 sm:px-8 lg:px-10 xl:px-16">
+    <section className="px-6 sm:px-8 lg:px-10 xl:px-16 scroll-mt-24" id="why-attend">
       <div className="max-w-396.75 mx-auto w-full flex flex-col xl:flex-row bg-[linear-gradient(320.09deg,#032A66_62.28%,#1D54A6_92.13%)] rounded-[20px]">
         <div className="xl:w-3/5 p-5 md:p-10">
           <h4 className="font-domine text-[24px] md:text-[28px] lg:text-[41px] font-semibold leading-tight text-white mb-4">
