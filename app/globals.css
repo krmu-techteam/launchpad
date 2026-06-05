@@ -30,6 +30,16 @@
 }
 
 @layer utilities {
+  .creator-card {
+  position: sticky;
+  top: 0;
+}
+
+@media (min-width: 1024px) {
+  .creator-card {
+    top: var(--sticky-top);
+  }
+}
   /* @media(max-width: 640px){
     p{
       text-align: justify;

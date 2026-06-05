@@ -62,14 +62,20 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
   ];
 
   return (
+    // <div
+    //   className={`sticky top-0 sm:h-162.5 md:h-175 lg:h-125`}
+    //   style={{
+    //     top: `${i * 5}px`,
+    //   }}
+
+    // >
     <div
-      className={`sticky top-0 sm:h-162.5 md:h-175 lg:h-125`}
-      style={{
-        ...(typeof window !== "undefined" &&
-          window.innerWidth >= 768 && {
-            top: `${i * 5}px`,
-          }),
-      }}
+      className="sticky top-0 creator-card sm:h-162.5 md:h-175 lg:h-125"
+      style={
+        {
+          "--sticky-top": `${i * 5}px`,
+        } as React.CSSProperties
+      }
     >
       <motion.div
         // style={{ scale }}
