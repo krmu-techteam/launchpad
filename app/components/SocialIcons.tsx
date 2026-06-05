@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SocialIcons = () => {
   return (
-    <div className="fixed top-[50%] -traslate-1/2 right-0  p-1 bg-[linear-gradient(180deg,#001732_2.88%,#2343F5_54.81%,#001732_100%)] rounded-l-[5px]">
+    <div className="fixed top-[30%] right-0  p-1 bg-[linear-gradient(180deg,#001732_2.88%,#2343F5_54.81%,#001732_100%)] rounded-l-[5px]">
       <ul className="flex flex-col gap-1.5">
         <SocialCard
           url="https://www.facebook.com/krmuniv/"
