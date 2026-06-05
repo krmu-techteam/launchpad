@@ -8,6 +8,9 @@ export type CreatorDataType = {
   eventDate: string;
   date: string;
   month: string;
+  creatorInfo?: string;
+  qrImg?: string;
+  qrUrl?: string;
 };
 
 export const creatorData: CreatorDataType[] = [
@@ -22,6 +25,10 @@ export const creatorData: CreatorDataType[] = [
     eventDate: "2026-06-09T10:00:00",
     date: "09",
     month: "June",
+    creatorInfo: "Entrepreneur • Author • Content Creator",
+    qrImg: "/images/new-qr.png",
+    qrUrl:
+      "https://zoom.us/webinar/register/WN_jE1l6_JiSoWJe5ZjMfbzQg#/registration",
   },
   {
     creatorName: "Aparshakti Khurana",
@@ -34,6 +41,7 @@ export const creatorData: CreatorDataType[] = [
     eventDate: "2026-06-18T10:00:00",
     date: "18",
     month: "June",
+    creatorInfo: "Actor • Radio Jockey • Entertainer",
   },
   {
     creatorName: "RJ Naved",
@@ -46,6 +54,7 @@ export const creatorData: CreatorDataType[] = [
     eventDate: "2026-06-24T10:00:00",
     date: "24",
     month: "June",
+    creatorInfo: "Radio Jockey • Content Creator • Entertainer",
   },
   {
     creatorName: "Sameeksha Sud",
@@ -58,6 +67,7 @@ export const creatorData: CreatorDataType[] = [
     eventDate: "2026-07-01T10:00:00",
     date: "01",
     month: "July",
+    creatorInfo: "Content Creator • Influencer • Lifestyle Mentor",
   },
   {
     creatorName: "Khurafati Nitin",
@@ -71,11 +81,11 @@ export const creatorData: CreatorDataType[] = [
     eventDate: "2026-07-08T10:00:00",
     date: "08",
     month: "July",
+    creatorInfo: "Radio Jockey • Motivational Speaker • Content Creator",
   },
   {
     creatorName: "Sonal Kaushal",
-    creatorTitle:
-      "Storytelling Skills That Make You Stand Out",
+    creatorTitle: "Storytelling Skills That Make You Stand Out",
     creatorDesc:
       "Master the art of storytelling to express ideas with clarity, confidence, and creativity. Learn how effective communication skills can help you leave a lasting impression in every sphere of life.",
     creatorImage: "/images/content-creators/sonal.png",
@@ -84,11 +94,11 @@ export const creatorData: CreatorDataType[] = [
     eventDate: "2026-07-15T10:00:00",
     date: "15",
     month: "July",
+    creatorInfo: "Voice Artist • Content Creator • Storyteller",
   },
   {
     creatorName: "Ayushman Pandita",
-    creatorTitle:
-      "AI Tools Every Student Should Learn in 2026",
+    creatorTitle: "AI Tools Every Student Should Learn in 2026",
     creatorDesc:
       "Step into the exciting world of Artificial Intelligence and explore powerful tools that are transforming the way we learn, create, communicate, and work. Discover how AI is reshaping industries, redefining careers, and becoming one of the most valuable future-ready skills for students in the digital age.",
     creatorImage: "/images/content-creators/ayushman.png",
@@ -97,11 +107,11 @@ export const creatorData: CreatorDataType[] = [
     eventDate: "2026-07-22T10:00:00",
     date: "22",
     month: "July",
+    creatorInfo: "AI Educator • Tech Creator • Digital Innovator",
   },
   {
     creatorName: "Manika Vishwakarma",
-    creatorTitle:
-      "Self Grooming, Confidence & First Impressions",
+    creatorTitle: "Self Grooming, Confidence & First Impressions",
     creatorDesc:
       "Boost your confidence through self-grooming, styling, and effective first impressions. Learn how personality, appearance, and communication together contribute to personal and professional growth.",
     creatorImage: "/images/content-creators/manika.png",
@@ -110,8 +120,10 @@ export const creatorData: CreatorDataType[] = [
     eventDate: "2026-07-29T10:00:00",
     date: "29",
     month: "JULY",
+    creatorInfo:
+      "Miss Universe India 2025 • Fashion Creator • Lifestyle Influencer",
   },
-    {
+  {
     creatorName: "Aman Gupta",
     creatorTitle:
       "Think Like a Founder: Skills, Mindset & Opportunities for the AI Era",
@@ -123,5 +135,6 @@ export const creatorData: CreatorDataType[] = [
     eventDate: "2026-08-05T10:00:00",
     date: "05",
     month: "AUG",
+    creatorInfo: "Entrepreneur • Angel Investor • Shark Tank Judge",
   },
 ];

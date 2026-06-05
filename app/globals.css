@@ -30,16 +30,29 @@
 }
 
 @layer utilities {
-  .creator-card {
-  position: sticky;
-  top: 0;
-}
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
 
-@media (min-width: 1024px) {
-  .creator-card {
-    top: var(--sticky-top);
+    to {
+      transform: rotate(360deg);
+    }
   }
-}
+
+  .rotate-star {
+    animation: rotate 25s linear infinite;
+  }
+  .creator-card {
+    position: sticky;
+    top: 0;
+  }
+
+  @media (min-width: 1024px) {
+    .creator-card {
+      top: var(--sticky-top);
+    }
+  }
   /* @media(max-width: 640px){
     p{
       text-align: justify;

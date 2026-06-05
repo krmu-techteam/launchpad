@@ -1,8 +1,10 @@
 import { Mail, Phone } from "lucide-react";
 import CommonLeadPopup from "./CommonLeadup";
 import NpfPopup from "./form/NpfPopup";
-import Link from "next/link";
 import ScrollToTop from "./form/scrollToTop";
+import SocialIcons from "./SocialIcons";
+import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -54,6 +56,18 @@ const Footer = () => {
         />
       </div>
       <ScrollToTop />
+      <SocialIcons />
+      <div className="fixed top-[75%] lg:top-[84%] left -5 z-40 w-[140px] h-[140px] md:w-[150px] md:h-[150px] flex items-center justify-center text-center p-5 font-semibold">
+        <Image
+          src="/images/star.png"
+          fill
+          alt=""
+          className="rotate-star"
+        />
+        <p className="text-xs text-black leading-5 z-50 mb-0 font-semibold leading-snug font-poppins">
+          Exclusively for KRMU's First-Year Students
+        </p>
+      </div>
     </>
   );
 };
