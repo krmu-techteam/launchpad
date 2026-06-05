@@ -153,7 +153,6 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
             alt=""
             className="absolute  sm:w-[230px]  lg:w-full h-auto hidden sm:block"
           />
-s
           <div
             className={`${data.imageBgGradient} rounded-full p-3 md:p-4 m-3`}
           >

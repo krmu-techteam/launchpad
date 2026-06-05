@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
       <ScrollToTop />
       <SocialIcons />
-      <div className="fixed top-[75%] lg:top-[84%] left -5 z-40 w-[140px] h-[140px] md:w-[150px] md:h-[150px] flex items-center justify-center text-center p-5 font-semibold">
+      <div className="fixed top-[55%] md:top-[60%] lg:top-[70%] left -5 z-40 w-[140px] h-[140px] md:w-[150px] md:h-[150px] flex items-center justify-center text-center p-5 font-semibold">
         <Image
           src="/images/star.png"
           fill
@@ -65,7 +65,7 @@ const Footer = () => {
           className="rotate-star"
         />
         <p className="text-xs text-black leading-5 z-50 mb-0 font-semibold leading-snug font-poppins">
-          Exclusively for KRMU's First-Year Students
+          Exclusively for newly admitted KRMU students
         </p>
       </div>
     </>
