@@ -77,7 +77,7 @@ const NpfPopup = ({
     <button
       id={`npf-popup-btn-${formId}`}
       ref={btnRef}
-      className={`${btnClass}`}
+      className={`${btnClass} cursor-pointer transition-all  relative overflow-hidden group`}
     >
       <span>{btnText}</span>
 
@@ -88,7 +88,8 @@ const NpfPopup = ({
         />
       )}
 
-      <div className="absolute inset-0 bg-linear-to-tr from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-800 ease-in-out pointer-events-none" />
+      <div className="absolute  inset-0 bg-linear-to-tr from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-800 ease-in-out pointer-events-none" />
+    <div className="absolute inset-0 bg-linear-to-tr from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-800 ease-in-out pointer-events-none"></div>
     </button>
   );
 };
