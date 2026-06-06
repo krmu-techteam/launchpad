@@ -104,7 +104,7 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
         `}
       >
         {/* Date Badge */}
-        <div className="absolute top-4 right-4 md:top-5 md:right-5 z-20 text-center text-white font-poppins w-16 h-16 md:w-18 md:h-18 2xl:w-[115px] 2xl:h-[109px] p-1 flex flex-col items-center justify-center rounded-[15px] sm:rounded-[20px] border border-dashed border-white">
+        <div className="absolute top-4 right-4 md:top-5 md:right-5 z-20 text-center text-white font-poppins w-16 h-16 md:w-18 md:h-18 2xl:w-[115px] 2xl:h-[109px] p-1 flex flex-col items-center justify-center rounded-[10px] border border-dashed border-white">
           <h5 className="font-bold text-xl md:text-2xl 2xl:text-[45px] leading-none">
             {data.date}
           </h5>
@@ -113,17 +113,21 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
             {data.month}
           </h6>
         </div>
-        <div className="hidden lg:block">
+        <div className="hidden lg:block z-40">
           {data.qrImg && (
-            <div className="absolute bottom-6 right-4">
+            <Link
+              href={data.qrUrl || "#"}
+              target="_blank"
+              className="absolute bottom-6 right-4"
+            >
               <Image
                 src={data.qrImg}
                 width={150}
                 height={150}
                 alt=""
-                className="object-contain w-[100px] h-[100px]  xl:w-[110px] xl:h-[130px] 2xl:w-[150px] 2xl:h-[150px]"
+                className="object-contain w-[100px] h-[100px]  xl:w-[140px] xl:h-[150px] 2xl:w-[150px] 2xl:h-[150px]"
               />
-            </div>
+            </Link>
           )}
         </div>
 

@@ -53,7 +53,7 @@ const NpfPopup = ({
           baseurl: "widgets.nopaperforms.com",
           formTitle: "Apply Now",
           titleColor: "#FF0033",
-          backgroundColor: "#ddd",
+          backgroundColor: "#fff",
           iframeHeight: "500px",
           buttonTextColor: "#FFF",
           target: "npf-popup-btn-" + formId,
@@ -89,7 +89,7 @@ const NpfPopup = ({
       )}
 
       <div className="absolute  inset-0 bg-linear-to-tr from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-800 ease-in-out pointer-events-none" />
-    <div className="absolute inset-0 bg-linear-to-tr from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-800 ease-in-out pointer-events-none"></div>
+      <div className="absolute inset-0 bg-linear-to-tr from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-800 ease-in-out pointer-events-none"></div>
     </button>
   );
 };

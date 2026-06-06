@@ -1,9 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
+import SocialCard from "./SocialCard";
 
 const SocialIcons = () => {
   return (
-    <div className="fixed top-[30%] right-0  p-1 bg-[linear-gradient(180deg,#001732_2.88%,#2343F5_54.81%,#001732_100%)] rounded-l-[5px]">
+    <div className="hidden lg:block fixed top-[30%] right-0  p-1 bg-[linear-gradient(180deg,#001732_2.88%,#2343F5_54.81%,#001732_100%)] rounded-l-[5px]">
       <ul className="flex flex-col gap-1.5">
         <SocialCard
           url="https://www.facebook.com/krmuniv/"
@@ -27,22 +26,6 @@ const SocialIcons = () => {
         />
       </ul>
     </div>
-  );
-};
-
-interface Props {
-  url: string;
-  imgUrl: string;
-  alt: string;
-}
-
-const SocialCard = ({ url, imgUrl, alt }: Props) => {
-  return (
-    <li>
-      <Link href={url} target="_blank">
-        <Image src={imgUrl} width={44} height={44} alt={alt} />
-      </Link>
-    </li>
   );
 };
 
