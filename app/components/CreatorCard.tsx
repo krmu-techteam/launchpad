@@ -194,7 +194,7 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
               <Link
                 href={data.qrUrl}
                 target="_blank"
-                className="border border-white py-1.5 px-4 text-sm rounded-[10px] text-white my-3 inline-block cursor-pointer lg:hidden"
+                className="border border-white py-1.5 px-4 text-sm rounded-[10px] text-white my-3 inline-block cursor-pointer lg:hidden z-40"
               >
                 Click Here to Register
               </Link>
