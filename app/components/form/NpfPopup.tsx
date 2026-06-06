@@ -51,11 +51,12 @@ const NpfPopup = ({
         const config = {
           widgetId: formId,
           baseurl: "widgets.nopaperforms.com",
-          formTitle: "Apply Now",
-          titleColor: "#FF0033",
+          formTitle: "Begin your KRMU journey with exclusive masterclasses from India's leading achievers.",
+          titleColor: "#000",
           backgroundColor: "#fff",
-          iframeHeight: "420px",
+          iframeHeight: "450px",
           buttonTextColor: "#FFF",
+          lineHeight: '1.2',
           target: "npf-popup-btn-" + formId,
 
           m_source: utmSource,

@@ -30,6 +30,18 @@
 }
 
 @layer utilities {
+  #popup-in-a6a4305c7514b2facc46528871e79634
+    > div.npfTitle.npfTitle-a6a4305c7514b2facc46528871e79634 {
+    text-align: center !important;
+    font-size: 16px !important;
+    margin-bottom: 0px !important;
+    line-height: 1.2 !important;
+  }
+  #npfWdgclose-a6a4305c7514b2facc46528871e79634{
+    position: absolute !important;
+    right: 10px !important;
+    top: 10px !important;
+  }
   @keyframes rotate {
     from {
       transform: rotate(0deg);

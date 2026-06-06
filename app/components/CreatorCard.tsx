@@ -178,6 +178,7 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
           <p className="text-sm md:text-lg font-poppins mb-2.5 text-white">
             {data.creatorInfo}
           </p>
+
           <div className="flex lg:block flex-col items-center justify-center">
             <Image
               src="/images/dot-border.png"
@@ -185,10 +186,19 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
               height={2}
               alt="Dot Border"
             />
-            <h5 className="text-sm md:text-xl lg:text-2xl text-[#E7C268] font-bold font-playfair max-w-[580px] xl:max-w-[850px] mt-3 mb-4 md:mb-5 tracking-[1.2px]">
+            <h5 className="text-sm md:text-xl lg:text-2xl text-[#E7C268] font-bold font-playfair max-w-[580px] xl:max-w-[850px] mt-3 mb-1 md:mb-5 tracking-[1.2px]">
               <span className="font-extrabold text-white">Session Topic:</span>{" "}
               {data.creatorTitle}
             </h5>
+            {data.qrUrl && (
+              <Link
+                href={data.qrUrl}
+                target="_blank"
+                className="border border-white py-1.5 px-4 text-sm rounded-[10px] text-white my-3 inline-block cursor-pointer lg:hidden"
+              >
+                Click Here to Register
+              </Link>
+            )}
           </div>
           <p className="text-white text-sm md:text-base lg:text-lg leading-snug text-justify sm:text-left sm:leading-6 lg:leading-6.75 mb-2.5 lg:mb-8 max-w-[917px] w-full hyphens-auto ">
             {data.creatorDesc}
@@ -211,15 +221,6 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
               </div>
             ))}
           </div>
-          {data.qrUrl && (
-            <Link
-              href={data.qrUrl}
-              target="_blank"
-              className="border border-white py-2 px-5 rounded-[10px] text-white my-3 inline-block cursor-pointer lg:hidden"
-            >
-              Click Here
-            </Link>
-          )}
         </div>
       </motion.div>
     </div>
