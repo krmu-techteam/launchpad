@@ -13,12 +13,12 @@ const ExploreExperience = () => {
           <p className="text-white text-sm md:text-base mb-5">
             KRMU’s LAUNCHPAD is a specially curated pre-enrollment engagement
             programme designed to inspire, empower, and prepare students for the
-            journey ahead
+            journey ahead.
           </p>
           <p className="text-white text-sm md:text-base mb-5">
             Through enriching sessions on career readiness, personal growth,
             creator economy trends, networking, motivation, communication, and
-            student life skills, KRMU’s LAUNCHPAD helps students become
+            student life skills, KRMU’s LAUNCHPAD 2026 aims to help students become
             future-ready before they even begin their academic journey.
           </p>
           <p className="text-white text-sm md:text-base mb-5">

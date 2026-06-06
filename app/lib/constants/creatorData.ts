@@ -72,7 +72,7 @@ export const creatorData: CreatorDataType[] = [
   {
     creatorName: "Khurafati Nitin",
     creatorTitle:
-      "Overthinking, FOMO & Social Pressure: Surviving College Mentally Strong",
+      "Overthinking, FOMO & Social Pressure: Surviving and Thriving in College",
     creatorDesc:
       "Learn how to deal with overthinking, social pressure, and the fear of missing out while staying mentally strong. Discover the importance of empathy, emotional resilience, and self-awareness in college life.",
     creatorImage: "/images/content-creators/rjnitin.png",
