@@ -34,8 +34,10 @@
     > div.npfTitle.npfTitle-a6a4305c7514b2facc46528871e79634 {
     text-align: center !important;
     font-size: 16px !important;
-    margin-bottom: 0px !important;
     line-height: 1.2 !important;
+    max-width: 400px !important;
+    width: 100%;
+    margin: 0 auto !important
   }
   #npfWdgclose-a6a4305c7514b2facc46528871e79634{
     position: absolute !important;
