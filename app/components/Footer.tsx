@@ -82,9 +82,8 @@ const Footer = () => {
       <SocialIcons />
       <div className="fixed bottom-[6%] lg:bottom-[10px] left -5 z-40 w-[140px] h-[140px] md:w-[150px] md:h-[150px] flex items-center justify-center text-center p-5 font-semibold">
         <Image src="/images/star-2.png" fill alt="" className="rotate-star" />
-        <p className="text-xs text-black z-50 mb-0 font-bold leading-[1.2] font-poppins">
-          Exclusively for newly{" "}
-          <span className="font-extrabold">admitted KRMU students</span>
+        <p className="text-xs text-black z-50 mb-0 font-bold leading-[1.3] font-poppins">
+          Exclusively for newly admitted KRMU students
         </p>
       </div>
     </>
