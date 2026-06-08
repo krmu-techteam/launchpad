@@ -39,9 +39,9 @@ export default function GetReady() {
                   w-[280px]
                   h-[240px]
                   sm:w-[350px]
-                  sm:h-[220px]
+                  sm:h-[450px]
                   md:w-[450px]
-                  md:h-[280px]
+                  md:h-[450px]
                   lg:w-[500px]
                   lg:h-[450px]
                   overflow-hidden
