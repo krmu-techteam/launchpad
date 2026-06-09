@@ -22,7 +22,7 @@ export const creatorData: CreatorDataType[] = [
     creatorImage: "/images/content-creators/ankur.png",
     cardBg: "bg-[linear-gradient(263deg,#4F1271_-13.33%,#004998_80.34%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#005BC7_0%,#001732_100%)] ",
-    eventDate: "2026-06-09T10:00:00",
+    eventDate: "2026-06-09T23:59:59",
     date: "09",
     month: "June",
     creatorInfo: "Entrepreneur • Author • Content Creator",
