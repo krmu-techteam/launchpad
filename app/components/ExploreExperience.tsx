@@ -45,7 +45,7 @@ const ExploreExperience = () => {
                 buttonText={"Download Brochure"}
                 buttonClassName="bg-white inline-block rounded-[10px] text-black font-medium w-full p-4 lg:p-5"
                 redirectUrl={
-                  "https://launchpad.krmangalam.edu.in/launchpad2026-brochure.pdf"
+                  "https://launchpad.krmangalam.edu.in/brochure-launchpad.pdf"
                 }
                 form_name="Download Brochure"
               />

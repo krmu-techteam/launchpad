@@ -73,7 +73,7 @@ const Footer = () => {
           buttonText={"Download Brochure"}
           buttonClassName="font-poppins flex-1 bg-white text-black p-2 md:py-3.5 md:px-2 text-center text-xs md:text-[14px] font-medium capitalize tracking-wide active:bg-[#c4020f]"
           redirectUrl={
-            "https://launchpad.krmangalam.edu.in/launchpad2026-brochure.pdf"
+            "https://launchpad.krmangalam.edu.in/brochure-launchpad.pdf"
           }
           form_name="Download Brochure"
         />

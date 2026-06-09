@@ -33,7 +33,7 @@ const YourJourney = () => {
             buttonText={"Download Brochure"}
             buttonClassName="bg-white rounded-[10px] text-black font-medium w-full sm:max-w-58.75 p-4 lg:p-5"
             redirectUrl={
-              "https://launchpad.krmangalam.edu.in/launchpad2026-brochure.pdf"
+              "https://launchpad.krmangalam.edu.in/brochure-launchpad.pdf"
             }
             form_name="Download Brochure"
           />
