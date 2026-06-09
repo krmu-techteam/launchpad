@@ -32,10 +32,26 @@ const CommonLeadPopup = ({
     const email = data.get("email")?.toString().trim();
     const mobile = data.get("mobile")?.toString().trim();
 
+    const nameRegex = /^[A-Za-z\s]{2,50}$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const indianMobileRegex = /^[6-9]\d{9}$/;
 
     if (!mobile || !indianMobileRegex.test(mobile)) {
       setError("Please enter a valid 10-digit Indian mobile number.");
+      setLoading(false);
+      return;
+    }
+
+    // Email validation
+    if (!email || !emailRegex.test(email)) {
+      setError("Please enter a valid email address.");
+      setLoading(false);
+      return;
+    }
+
+    // Name validation
+    if (!name || !nameRegex.test(name)) {
+      setError("Please enter a valid name.");
       setLoading(false);
       return;
     }
@@ -50,11 +66,14 @@ const CommonLeadPopup = ({
 
     try {
       /* 1️⃣ SAVE TO STRAPI */
-      await fetch(`https://truthful-cabbage-82fd27e8f6.strapiapp.com/api/prospect-leads`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ data: payload }),
-      });
+      await fetch(
+        `https://truthful-cabbage-82fd27e8f6.strapiapp.com/api/prospect-leads`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ data: payload }),
+        },
+      );
 
       /* 2️⃣ SEND TO NOPAPERFORMS */
       // const npfRes = await fetch("/api/send-to-npf", {
