@@ -192,7 +192,7 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
               height={2}
               alt="Dot Border"
             />
-            <h5 className="text-sm md:text-xl lg:text-2xl text-[#E7C268] font-bold font-playfair max-w-[580px] xl:max-w-[850px] mt-3 mb-1 md:mb-5 tracking-[1.2px]">
+            <h5 className="text-sm md:text-lg lg:text-xl xl:text-2xl text-[#E7C268] font-bold font-playfair max-w-[580px] xl:max-w-[850px] mt-3 mb-1 md:mb-5 tracking-[1.2px]">
               <span className="font-extrabold text-white">Session Topic:</span>{" "}
               {data.creatorTitle}
             </h5>
@@ -212,7 +212,7 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
 
           {/* Countdown */}
           {isSessionEnded ? (
-            <div className="p-0.5 rounded-[10px] bg-[linear-gradient(90deg,#00A8AF_0%,#FFFFFF_53%,#00A9B0_100%)] w-fit">
+            <div className="p-0.5 rounded-[10px] bg-[linear-gradient(90deg,#00A8AF_0%,#FFFFFF_53%,#00A9B0_100%)] lg:w-fit">
               <div className="rounded-[10px] text-sm sm:text-lg  bg-[#103e90] text-[#11BF5F] px-3 py-2 font-poppins">
                 This session has ended, but the learning continues.
               </div>
