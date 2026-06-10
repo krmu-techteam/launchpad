@@ -211,13 +211,8 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
           </p>
 
           {/* Countdown */}
-          {isSessionEnded ? (
-            <div className="p-0.5 rounded-[10px] bg-[linear-gradient(90deg,#00A8AF_0%,#FFFFFF_53%,#00A9B0_100%)] lg:w-fit">
-              <div className="rounded-[10px] text-sm sm:text-lg  bg-[#103e90] text-[#11BF5F] px-3 py-2 font-poppins">
-                This session has ended, but the learning continues.
-              </div>
-            </div>
-          ) : (
+
+          {!data.sessionEnd && (
             <div className="grid grid-cols-4 gap-3 max-w-full w-auto lg:max-w-90">
               {countdownItems.map((item) => (
                 <div
@@ -233,6 +228,13 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
                   </h6>
                 </div>
               ))}
+            </div>
+          )}
+          {data.sessionEnd && (
+            <div className="p-0.5 rounded-[10px] bg-[linear-gradient(90deg,#00A8AF_0%,#FFFFFF_53%,#00A9B0_100%)] lg:w-fit">
+              <div className="rounded-[10px] text-sm sm:text-lg  bg-[#103e90] text-[#11BF5F] px-3 py-2 font-poppins">
+                This session has ended, but the learning continues.
+              </div>
             </div>
           )}
         </div>
