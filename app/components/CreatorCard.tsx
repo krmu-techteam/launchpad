@@ -62,6 +62,12 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
     { label: "Sec.", value: timeLeft.seconds },
   ];
 
+  const isSessionEnded =
+    timeLeft.days === 0 &&
+    timeLeft.hours === 0 &&
+    timeLeft.minutes === 0 &&
+    timeLeft.seconds === 0;
+
   return (
     // <div
     //   className={`sticky top-0 sm:h-162.5 md:h-175 lg:h-125`}
@@ -165,7 +171,7 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
               width={387}
               height={387}
               alt={data.creatorName}
-              className="rounded-full w-45 lg:w-75 xl:w-100 h-auto"
+              className={`rounded-full w-45 lg:w-75 xl:w-100 h-auto ${data.sessionEnd && "invert-0 grayscale"}`}
             />
           </div>
         </div>
@@ -205,22 +211,30 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
           </p>
 
           {/* Countdown */}
-          <div className="grid grid-cols-4 gap-3 max-w-full w-auto lg:max-w-[360px]">
-            {countdownItems.map((item) => (
-              <div
-                key={item.label}
-                className="text-center text-white w-auto font-poppins w-[80px] h-[80px] flex flex-col items-center justify-center md:border-2 border-white/20 rounded-[10px]"
-              >
-                <h5 className="font-bold text-xl md:text-2xl lg:text-[27px]">
-                  {String(item.value).padStart(2, "0")}
-                </h5>
-
-                <h6 className="text-xs md:text-sm lg:text-base font-normal">
-                  {item.label}
-                </h6>
+          {isSessionEnded ? (
+            <div className="p-0.5 rounded-[10px] bg-[linear-gradient(90deg,#00A8AF_0%,#FFFFFF_53%,#00A9B0_100%)] w-fit">
+              <div className="rounded-[10px] text-sm sm:text-lg  bg-[#103e90] text-[#11BF5F] px-3 py-2 font-poppins">
+                This session has ended, but the learning continues.
               </div>
-            ))}
-          </div>
+            </div>
+          ) : (
+            <div className="grid grid-cols-4 gap-3 max-w-full w-auto lg:max-w-90">
+              {countdownItems.map((item) => (
+                <div
+                  key={item.label}
+                  className="text-center text-white w-auto font-poppins w-[80px] h-[80px] flex flex-col items-center justify-center md:border-2 border-white/20 rounded-[10px]"
+                >
+                  <h5 className="font-bold text-xl md:text-2xl lg:text-[27px]">
+                    {String(item.value).padStart(2, "0")}
+                  </h5>
+
+                  <h6 className="text-xs md:text-sm lg:text-base font-normal">
+                    {item.label}
+                  </h6>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </motion.div>
     </div>

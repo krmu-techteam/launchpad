@@ -11,25 +11,10 @@ export type CreatorDataType = {
   creatorInfo?: string;
   qrImg?: string;
   qrUrl?: string;
+  sessionEnd?: boolean;
 };
 
 export const creatorData: CreatorDataType[] = [
-  {
-    creatorName: "Ankur Warikoo",
-    creatorTitle: "Build a Powerful Profile Before Your First Semester",
-    creatorDesc:
-      "Build a strong professional presence even before your first semester begins. Learn how to create an impactful LinkedIn profile that showcases your skills, achievements, and aspirations while helping you build meaningful connections and future career opportunities from day one.",
-    creatorImage: "/images/content-creators/ankur.png",
-    cardBg: "bg-[linear-gradient(263deg,#4F1271_-13.33%,#004998_80.34%)]",
-    imageBgGradient: "bg-[linear-gradient(180deg,#005BC7_0%,#001732_100%)] ",
-    eventDate: "2026-06-09T20:00:00",
-    date: "09",
-    month: "June",
-    creatorInfo: "Entrepreneur • Author • Content Creator",
-    qrImg: "/images/new-qr.png",
-    qrUrl:
-      "https://zoom.us/webinar/register/WN_jE1l6_JiSoWJe5ZjMfbzQg#/registration",
-  },
   {
     creatorName: "Aparshakti Khurana",
     creatorTitle: "Life Lessons & Power of Perseverance",
@@ -38,10 +23,13 @@ export const creatorData: CreatorDataType[] = [
     creatorImage: "/images/content-creators/aparshakti.png",
     cardBg: "bg-[linear-gradient(263.53deg,#116490_-1.31%,#721361_98.73%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#14628F_0%,#31083C_100%)] ",
-    eventDate: "2026-06-18T10:00:00",
+    eventDate: "2026-06-18T20:00:00",
     date: "18",
     month: "June",
     creatorInfo: "Actor • Radio Jockey • Entertainer",
+    qrImg: "/images/aparshaktiqr.png",
+    qrUrl:
+      "https://zoom.us/webinar/register/WN__5RljZcIS4agnPv4I56Jtg#/registration",
   },
   {
     creatorName: "RJ Naved",
@@ -136,5 +124,21 @@ export const creatorData: CreatorDataType[] = [
     date: "05",
     month: "AUG",
     creatorInfo: "Entrepreneur • Angel Investor • Shark Tank Judge",
+  },
+  {
+    creatorName: "Ankur Warikoo",
+    creatorTitle: "Build a Powerful Profile Before Your First Semester",
+    creatorDesc:
+      "Build a strong professional presence even before your first semester begins. Learn how to create an impactful LinkedIn profile that showcases your skills, achievements, and aspirations while helping you build meaningful connections and future career opportunities from day one.",
+    creatorImage: "/images/content-creators/ankur.png",
+    cardBg: "bg-[linear-gradient(263deg,#4F1271_-13.33%,#004998_80.34%)]",
+    imageBgGradient: "bg-[linear-gradient(180deg,#005BC7_0%,#001732_100%)] ",
+    eventDate: "2026-06-09T20:00:00",
+    date: "09",
+    month: "June",
+    creatorInfo: "Entrepreneur • Author • Content Creator",
+    qrImg: "",
+    qrUrl: "",
+    sessionEnd: true,
   },
 ];
