@@ -131,7 +131,7 @@ export const creatorData: CreatorDataType[] = [
     creatorDesc:
       "Build a strong professional presence even before your first semester begins. Learn how to create an impactful LinkedIn profile that showcases your skills, achievements, and aspirations while helping you build meaningful connections and future career opportunities from day one.",
     creatorImage: "/images/content-creators/ankur.png",
-    cardBg: "bg-[linear-gradient(263deg,#4F1271_-13.33%,#004998_80.34%)]",
+    cardBg: "bg-[linear-gradient(263deg,#4F1271_5.51%,#242424_99.19%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#CCCCCC_0%,#001732_100%)] ",
     eventDate: "2026-06-09T20:00:00",
     date: "09",

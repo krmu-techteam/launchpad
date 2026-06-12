@@ -231,8 +231,8 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
             </div>
           )}
           {data.sessionEnd && (
-            <div className="p-0.5 rounded-[10px] bg-[linear-gradient(90deg,#00A8AF_0%,#FFFFFF_53%,#00A9B0_100%)] lg:w-fit">
-              <div className="rounded-[10px] text-sm sm:text-lg  bg-[#103e90] text-[#11BF5F] px-3 py-2 font-poppins">
+            <div className="p-[1px] rounded-[10px] bg-[linear-gradient(90deg,#00A8AF_0%,#FFFFFF_53%,#00A9B0_100%)] lg:w-fit">
+              <div className="rounded-[10px] text-sm sm:text-lg  bg-[#381c48] text-[#11BF5F] px-3 py-2 font-poppins">
                 This session has ended, but the learning continues.
               </div>
             </div>
