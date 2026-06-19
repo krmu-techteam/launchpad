@@ -12,6 +12,7 @@ export type CreatorDataType = {
   qrImg?: string;
   qrUrl?: string;
   sessionEnd?: boolean;
+  sessionEndBg?: string;
 };
 
 export const creatorData: CreatorDataType[] = [
@@ -127,6 +128,7 @@ export const creatorData: CreatorDataType[] = [
     qrImg: "",
     qrUrl: "",
     sessionEnd: true,
+    sessionEndBg: "bg-[#381c48]",
   },
 
   {
@@ -135,7 +137,7 @@ export const creatorData: CreatorDataType[] = [
     creatorDesc:
       "A candid conversation on embracing challenges, staying resilient through setbacks, discovering one’s true potential, and navigating the journey from aspirations to achievements. Gain insights into personal growth, self-belief, and the mindset required to turn obstacles into opportunities.",
     creatorImage: "/images/content-creators/aparshakti.png",
-    cardBg: "bg-[linear-gradient(263deg,#4F1271_5.51%,#242424_99.19%)]",
+    cardBg: "bg-[linear-gradient(263.53deg,#116490_-1.31%,#721361_98.73%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#CCCCCC_0%,#001732_100%)]",
     eventDate: "2026-06-18T20:00:00",
     date: "18",
@@ -144,5 +146,6 @@ export const creatorData: CreatorDataType[] = [
     qrImg: "",
     qrUrl: "",
     sessionEnd: true,
+    sessionEndBg: "bg-[linear-gradient(220.53deg,#522d70_1.31%,#721361_98.73%)]",
   },
 ];
