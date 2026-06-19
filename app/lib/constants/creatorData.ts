@@ -146,6 +146,6 @@ export const creatorData: CreatorDataType[] = [
     qrImg: "",
     qrUrl: "",
     sessionEnd: true,
-    sessionEndBg: "bg-[linear-gradient(220.53deg,#522d70_1.31%,#721361_98.73%)]",
+    sessionEndBg: "bg-[linear-gradient(90deg,#572A6F_0%,#463877_50%,#37457E_100%)]",
   },
 ];
