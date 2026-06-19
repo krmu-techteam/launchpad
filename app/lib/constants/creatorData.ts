@@ -16,22 +16,6 @@ export type CreatorDataType = {
 
 export const creatorData: CreatorDataType[] = [
   {
-    creatorName: "Aparshakti Khurana",
-    creatorTitle: "Life Lessons & Power of Perseverance",
-    creatorDesc:
-      "A candid conversation on embracing challenges, staying resilient through setbacks, discovering one’s true potential, and navigating the journey from aspirations to achievements. Gain insights into personal growth, self-belief, and the mindset required to turn obstacles into opportunities.",
-    creatorImage: "/images/content-creators/aparshakti.png",
-    cardBg: "bg-[linear-gradient(263.53deg,#116490_-1.31%,#721361_98.73%)]",
-    imageBgGradient: "bg-[linear-gradient(180deg,#14628F_0%,#31083C_100%)] ",
-    eventDate: "2026-06-18T20:00:00",
-    date: "18",
-    month: "June",
-    creatorInfo: "Actor • Radio Jockey • Entertainer",
-    qrImg: "/images/aparshaktiqr.png",
-    qrUrl:
-      "https://zoom.us/webinar/register/WN__5RljZcIS4agnPv4I56Jtg#/registration",
-  },
-  {
     creatorName: "RJ Naved",
     creatorTitle: "How Social Media Can Build Your Career",
     creatorDesc:
@@ -39,10 +23,13 @@ export const creatorData: CreatorDataType[] = [
     creatorImage: "/images/content-creators/rjnaved.png",
     cardBg: "bg-[linear-gradient(263.45deg,#004E23_3.12%,#4B5875_97.48%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#125E38_0%,#0C2C2C_100%)] ",
-    eventDate: "2026-06-24T10:00:00",
+    eventDate: "2026-06-24T18:59:59",
     date: "24",
     month: "June",
     creatorInfo: "Radio Jockey • Content Creator • Entertainer",
+    qrImg: "/images/naved-qr.png",
+    qrUrl:
+      "https://zoom.us/webinar/register/6517817667619/WN_mwt28HWnSRCjRsESIDBpIg#/registration",
   },
   {
     creatorName: "Sameeksha Sud",
@@ -137,6 +124,23 @@ export const creatorData: CreatorDataType[] = [
     date: "09",
     month: "June",
     creatorInfo: "Entrepreneur • Author • Content Creator",
+    qrImg: "",
+    qrUrl: "",
+    sessionEnd: true,
+  },
+
+  {
+    creatorName: "Aparshakti Khurana",
+    creatorTitle: "Life Lessons & Power of Perseverance",
+    creatorDesc:
+      "A candid conversation on embracing challenges, staying resilient through setbacks, discovering one’s true potential, and navigating the journey from aspirations to achievements. Gain insights into personal growth, self-belief, and the mindset required to turn obstacles into opportunities.",
+    creatorImage: "/images/content-creators/aparshakti.png",
+    cardBg: "bg-[linear-gradient(263deg,#4F1271_5.51%,#242424_99.19%)]",
+    imageBgGradient: "bg-[linear-gradient(180deg,#CCCCCC_0%,#001732_100%)]",
+    eventDate: "2026-06-18T20:00:00",
+    date: "18",
+    month: "June",
+    creatorInfo: "Actor • Radio Jockey • Entertainer",
     qrImg: "",
     qrUrl: "",
     sessionEnd: true,
