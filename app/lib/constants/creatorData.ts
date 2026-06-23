@@ -28,7 +28,7 @@ export const creatorData: CreatorDataType[] = [
     date: "24",
     month: "June",
     creatorInfo: "Radio Jockey • Content Creator • Entertainer",
-    qrImg: "/images/naved-qr.png",
+    qrImg: "/images/navedqr.png",
     qrUrl:
       "https://zoom.us/webinar/register/6517817667619/WN_mwt28HWnSRCjRsESIDBpIg#/registration",
   },
@@ -44,6 +44,8 @@ export const creatorData: CreatorDataType[] = [
     date: "01",
     month: "July",
     creatorInfo: "Content Creator • Influencer • Lifestyle Mentor",
+    qrImg: "/images/sameeksha-qr.png",
+    qrUrl: "https://zoom.us/webinar/register/4317819459885/WN_Zgw3KquvTXSMNhUpI-sd4g#/registration"
   },
   {
     creatorName: "Khurafati Nitin",
@@ -58,6 +60,8 @@ export const creatorData: CreatorDataType[] = [
     date: "08",
     month: "July",
     creatorInfo: "Radio Jockey • Motivational Speaker • Content Creator",
+    qrImg: "/images/khurafati-nitin-qr.png",
+    qrUrl: "https://zoom.us/webinar/register/8017819461249/WN_vc3exToBSvSgPf_siU-v0A#/registration"
   },
   {
     creatorName: "Sonal Kaushal",
@@ -71,6 +75,8 @@ export const creatorData: CreatorDataType[] = [
     date: "15",
     month: "July",
     creatorInfo: "Voice Artist • Content Creator • Storyteller",
+    qrImg: "/images/sonal-qr.png",
+    qrUrl: "https://zoom.us/webinar/register/3217819463324/WN_mdfKtXGFQsi77zno9gafRg#/registration"
   },
   {
     creatorName: "Ayushman Pandita",
@@ -84,6 +90,9 @@ export const creatorData: CreatorDataType[] = [
     date: "22",
     month: "July",
     creatorInfo: "AI Educator • Tech Creator • Digital Innovator",
+    qrImg: "/images/ayushman-pandit-qr.png",
+    qrUrl:
+      "https://zoom.us/webinar/register/7017819467793/WN_kAoZ5cC9Qb6e6ma12mSklw#/registration",
   },
   {
     creatorName: "Manika Vishwakarma",
@@ -98,6 +107,8 @@ export const creatorData: CreatorDataType[] = [
     month: "JULY",
     creatorInfo:
       "Miss Universe India 2025 • Fashion Creator • Lifestyle Influencer",
+    qrImg: "/images/manika-qr.png",
+    qrUrl: "https://zoom.us/webinar/register/9217819480588/WN_v4OmtI8ZQKaw4Z-Qir6Xgw#/registration"
   },
   {
     creatorName: "Aman Gupta",
@@ -112,6 +123,9 @@ export const creatorData: CreatorDataType[] = [
     date: "05",
     month: "AUG",
     creatorInfo: "Entrepreneur • Angel Investor • Shark Tank Judge",
+    qrImg: "/images/aman-qr.png",
+    qrUrl: "https://zoom.us/webinar/register/8617819486192/WN_IqaMhlNnSTOxq8Ltq_hiFA#/registration",
+    sessionEnd: false,
   },
   {
     creatorName: "Ankur Warikoo",
@@ -146,6 +160,7 @@ export const creatorData: CreatorDataType[] = [
     qrImg: "",
     qrUrl: "",
     sessionEnd: true,
-    sessionEndBg: "bg-[linear-gradient(90deg,#572A6F_0%,#463877_50%,#37457E_100%)]",
+    sessionEndBg:
+      "bg-[linear-gradient(90deg,#572A6F_0%,#463877_50%,#37457E_100%)]",
   },
 ];
