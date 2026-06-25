@@ -17,22 +17,6 @@ export type CreatorDataType = {
 
 export const creatorData: CreatorDataType[] = [
   {
-    creatorName: "RJ Naved",
-    creatorTitle: "How Social Media Can Build Your Career",
-    creatorDesc:
-      "Discover the power of content creation and social media in building a strong personal brand and unlocking future career opportunities. Learn how creators and digital influencers turn ideas into impact through engaging content that connects, inspires, and influences audiences in today’s digital world.",
-    creatorImage: "/images/content-creators/rjnaved.png",
-    cardBg: "bg-[linear-gradient(263.45deg,#004E23_3.12%,#4B5875_97.48%)]",
-    imageBgGradient: "bg-[linear-gradient(180deg,#125E38_0%,#0C2C2C_100%)] ",
-    eventDate: "2026-06-24T18:59:59",
-    date: "24",
-    month: "June",
-    creatorInfo: "Radio Jockey • Content Creator • Entertainer",
-    qrImg: "/images/navedqr.png",
-    qrUrl:
-      "https://zoom.us/webinar/register/6517817667619/WN_mwt28HWnSRCjRsESIDBpIg#/registration",
-  },
-  {
     creatorName: "Sameeksha Sud",
     creatorTitle: "Healthy Habits for High Performing Students",
     creatorDesc:
@@ -40,12 +24,13 @@ export const creatorData: CreatorDataType[] = [
     creatorImage: "/images/content-creators/sameeksha.png",
     cardBg: "bg-[linear-gradient(263.55deg,#842543_14.17%,#6C471D_91.84%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#852644_0%,#5D1C0C_100%)] ",
-    eventDate: "2026-07-01T10:00:00",
+    eventDate: "2026-07-02T10:00:00",
     date: "02",
     month: "July",
     creatorInfo: "Content Creator • Influencer • Lifestyle Mentor",
     qrImg: "/images/sameeksha-qr.png",
-    qrUrl: "https://zoom.us/webinar/register/4317819459885/WN_Zgw3KquvTXSMNhUpI-sd4g#/registration"
+    qrUrl:
+      "https://zoom.us/webinar/register/4317819459885/WN_Zgw3KquvTXSMNhUpI-sd4g#/registration",
   },
   {
     creatorName: "Khurafati Nitin",
@@ -61,7 +46,8 @@ export const creatorData: CreatorDataType[] = [
     month: "July",
     creatorInfo: "Radio Jockey • Motivational Speaker • Content Creator",
     qrImg: "/images/khurafati-nitin-qr.png",
-    qrUrl: "https://zoom.us/webinar/register/8017819461249/WN_vc3exToBSvSgPf_siU-v0A#/registration"
+    qrUrl:
+      "https://zoom.us/webinar/register/8017819461249/WN_vc3exToBSvSgPf_siU-v0A#/registration",
   },
   {
     creatorName: "Sonal Kaushal",
@@ -76,7 +62,8 @@ export const creatorData: CreatorDataType[] = [
     month: "July",
     creatorInfo: "Voice Artist • Content Creator • Storyteller",
     qrImg: "/images/sonal-qr.png",
-    qrUrl: "https://zoom.us/webinar/register/3217819463324/WN_mdfKtXGFQsi77zno9gafRg#/registration"
+    qrUrl:
+      "https://zoom.us/webinar/register/3217819463324/WN_mdfKtXGFQsi77zno9gafRg#/registration",
   },
   {
     creatorName: "Ayushman Pandita",
@@ -108,7 +95,8 @@ export const creatorData: CreatorDataType[] = [
     creatorInfo:
       "Miss Universe India 2025 • Fashion Creator • Lifestyle Influencer",
     qrImg: "/images/manika-qr.png",
-    qrUrl: "https://zoom.us/webinar/register/9217819480588/WN_v4OmtI8ZQKaw4Z-Qir6Xgw#/registration"
+    qrUrl:
+      "https://zoom.us/webinar/register/9217819480588/WN_v4OmtI8ZQKaw4Z-Qir6Xgw#/registration",
   },
   {
     creatorName: "Aman Gupta",
@@ -124,7 +112,8 @@ export const creatorData: CreatorDataType[] = [
     month: "AUG",
     creatorInfo: "Entrepreneur • Angel Investor • Shark Tank Judge",
     qrImg: "/images/aman-qr.png",
-    qrUrl: "https://zoom.us/webinar/register/8617819486192/WN_IqaMhlNnSTOxq8Ltq_hiFA#/registration",
+    qrUrl:
+      "https://zoom.us/webinar/register/8617819486192/WN_IqaMhlNnSTOxq8Ltq_hiFA#/registration",
     sessionEnd: false,
   },
   {
@@ -162,5 +151,22 @@ export const creatorData: CreatorDataType[] = [
     sessionEnd: true,
     sessionEndBg:
       "bg-[linear-gradient(90deg,#572A6F_0%,#463877_50%,#37457E_100%)]",
+  },
+  {
+    creatorName: "RJ Naved",
+    creatorTitle: "How Social Media Can Build Your Career",
+    creatorDesc:
+      "Discover the power of content creation and social media in building a strong personal brand and unlocking future career opportunities. Learn how creators and digital influencers turn ideas into impact through engaging content that connects, inspires, and influences audiences in today’s digital world.",
+    creatorImage: "/images/content-creators/rjnaved.png",
+    cardBg: "bg-[linear-gradient(263.45deg,#004E23_3.12%,#4B5875_97.48%)]",
+    imageBgGradient: "bg-[linear-gradient(180deg,#125E38_0%,#0C2C2C_100%)] ",
+    date: "24",
+    eventDate: "2026-06-24T18:59:59",
+    month: "June",
+    creatorInfo: "Radio Jockey • Content Creator • Entertainer",
+    sessionEndBg: "bg-[#2a5451]",
+    sessionEnd: true,
+    qrImg: "",
+    qrUrl: "",
   },
 ];
