@@ -41,7 +41,7 @@ export const creatorData: CreatorDataType[] = [
     cardBg: "bg-[linear-gradient(263.55deg,#842543_14.17%,#6C471D_91.84%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#852644_0%,#5D1C0C_100%)] ",
     eventDate: "2026-07-01T10:00:00",
-    date: "01",
+    date: "02",
     month: "July",
     creatorInfo: "Content Creator • Influencer • Lifestyle Mentor",
     qrImg: "/images/sameeksha-qr.png",
