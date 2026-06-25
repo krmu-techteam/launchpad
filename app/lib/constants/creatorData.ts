@@ -164,7 +164,7 @@ export const creatorData: CreatorDataType[] = [
     eventDate: "2026-06-24T18:59:59",
     month: "June",
     creatorInfo: "Radio Jockey • Content Creator • Entertainer",
-    sessionEndBg: "bg-[#2a5451]",
+    sessionEndBg: "bg-[linear-gradient(112deg,#315459_3.12%,#1c5c4a_97.48%)]",
     sessionEnd: true,
     qrImg: "",
     qrUrl: "",
