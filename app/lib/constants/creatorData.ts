@@ -29,7 +29,8 @@ export const creatorData: CreatorDataType[] = [
     month: "July",
     creatorInfo: "Content Creator • Influencer • Lifestyle Mentor",
     qrImg: "/images/sameeksha-qr.png",
-    qrUrl: "https://zoom.us/webinar/register/4317819459885/WN_Zgw3KquvTXSMNhUpI-sd4g#/registration",
+    qrUrl:
+      "https://zoom.us/webinar/register/4317819459885/WN_Zgw3KquvTXSMNhUpI-sd4g#/registration",
     sessionEnd: false,
     sessionEndBg: "bg-[#76382d]",
   },
