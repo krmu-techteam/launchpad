@@ -111,9 +111,11 @@ const CreatorCard = ({ data, i, progress, range, targetScale }: Props) => {
       >
         {/* Date Badge */}
         <div className="absolute top-4 right-4 md:top-5 md:right-5 z-20 text-center text-white font-poppins w-16 h-16 md:w-18 md:h-18 2xl:w-[115px] 2xl:h-[109px] p-1 flex flex-col items-center justify-center rounded-[10px] border border-dashed border-white">
-          <h5 className="font-bold text-xl md:text-2xl 2xl:text-[45px] leading-none">
-            {data.date}
-          </h5>
+          {!data.sessionEnd && (
+            <h5 className="font-bold text-xl md:text-2xl 2xl:text-[45px] leading-none">
+              {data.date}
+            </h5>
+          )}
 
           <h6 className="text-xs md:text-sm lg:text-[22px] font-normal uppercase">
             {data.month}

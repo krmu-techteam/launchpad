@@ -17,6 +17,23 @@ export type CreatorDataType = {
 
 export const creatorData: CreatorDataType[] = [
   {
+    creatorName: "Sameeksha Sud",
+    creatorTitle: "Healthy Habits for High Performing Students",
+    creatorDesc:
+      "Build healthy habits and a balanced lifestyle that empower you to stay energetic, focused, and confident throughout your university journey. Discover practical strategies for managing stress, maintaining physical wellness, and creating a positive mindset to thrive in today’s fast-paced academic environment.",
+    creatorImage: "/images/content-creators/sameeksha.png",
+    cardBg: "bg-[linear-gradient(263.55deg,#842543_14.17%,#6C471D_91.84%)]",
+    imageBgGradient: "bg-[linear-gradient(180deg,#852644_0%,#5D1C0C_100%)] ",
+    eventDate: "2026-07-02T23:59:59",
+    date: "02",
+    month: "July",
+    creatorInfo: "Content Creator • Influencer • Lifestyle Mentor",
+    qrImg: "/images/sameeksha-qr.png",
+    qrUrl: "https://zoom.us/webinar/register/4317819459885/WN_Zgw3KquvTXSMNhUpI-sd4g#/registration",
+    sessionEnd: false,
+    sessionEndBg: "bg-[#76382d]",
+  },
+  {
     creatorName: "Khurafati Nitin",
     creatorTitle:
       "Overthinking, FOMO & Social Pressure: Surviving and Thriving in College",
@@ -152,22 +169,5 @@ export const creatorData: CreatorDataType[] = [
     sessionEnd: true,
     qrImg: "",
     qrUrl: "",
-  },
-  {
-    creatorName: "Sameeksha Sud",
-    creatorTitle: "Healthy Habits for High Performing Students",
-    creatorDesc:
-      "Build healthy habits and a balanced lifestyle that empower you to stay energetic, focused, and confident throughout your university journey. Discover practical strategies for managing stress, maintaining physical wellness, and creating a positive mindset to thrive in today’s fast-paced academic environment.",
-    creatorImage: "/images/content-creators/sameeksha.png",
-    cardBg: "bg-[linear-gradient(263.55deg,#842543_14.17%,#6C471D_91.84%)]",
-    imageBgGradient: "bg-[linear-gradient(180deg,#852644_0%,#5D1C0C_100%)] ",
-    eventDate: "2026-07-02T10:00:00",
-    date: "02",
-    month: "July",
-    creatorInfo: "Content Creator • Influencer • Lifestyle Mentor",
-    qrImg: "",
-    qrUrl: "",
-    sessionEnd: true,
-    sessionEndBg: 'bg-[#76382d]'
   },
 ];
