@@ -17,23 +17,6 @@ export type CreatorDataType = {
 
 export const creatorData: CreatorDataType[] = [
   {
-    creatorName: "Khurafati Nitin",
-    creatorTitle:
-      "Overthinking, FOMO & Social Pressure: Surviving and Thriving in College",
-    creatorDesc:
-      "Learn how to deal with overthinking, social pressure, and the fear of missing out while staying mentally strong. Discover the importance of empathy, emotional resilience, and self-awareness in college life.",
-    creatorImage: "/images/content-creators/rjnitin.png",
-    cardBg: "bg-[linear-gradient(262.04deg,#52480F_15.85%,#6C5C47_91.8%)]",
-    imageBgGradient: "bg-[linear-gradient(180deg,#9C8363_0%,#332C00_100%)] ",
-    eventDate: "2026-07-08T19:00:00",
-    date: "08",
-    month: "July",
-    creatorInfo: "Radio Jockey • Motivational Speaker • Content Creator",
-    qrImg: "/images/khurafati-nitin-qr.png",
-    qrUrl:
-      "https://zoom.us/webinar/register/8017819461249/WN_vc3exToBSvSgPf_siU-v0A#/registration",
-  },
-  {
     creatorName: "Sonal Kaushal",
     creatorTitle: "Storytelling Skills That Make You Stand Out",
     creatorDesc:
@@ -166,9 +149,26 @@ export const creatorData: CreatorDataType[] = [
     month: "July",
     creatorInfo: "Content Creator • Influencer • Lifestyle Mentor",
     qrImg: "",
-    qrUrl:
-      "",
+    qrUrl: "",
     sessionEnd: true,
     sessionEndBg: "bg-[#76382d]",
+  },
+  {
+    creatorName: "Khurafati Nitin",
+    creatorTitle:
+      "Overthinking, FOMO & Social Pressure: Surviving and Thriving in College",
+    creatorDesc:
+      "Learn how to deal with overthinking, social pressure, and the fear of missing out while staying mentally strong. Discover the importance of empathy, emotional resilience, and self-awareness in college life.",
+    creatorImage: "/images/content-creators/rjnitin.png",
+    cardBg: "bg-[linear-gradient(262.04deg,#52480F_15.85%,#6C5C47_91.8%)]",
+    imageBgGradient: "bg-[linear-gradient(180deg,#9C8363_0%,#332C00_100%)] ",
+    eventDate: "2026-07-08T19:00:00",
+    date: "08",
+    month: "July",
+    creatorInfo: "Radio Jockey • Motivational Speaker • Content Creator",
+    qrImg: "",
+    qrUrl: "",
+    sessionEnd: true,
+    sessionEndBg: "bg-[#60532e]",
   },
 ];

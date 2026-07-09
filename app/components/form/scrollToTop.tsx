@@ -37,7 +37,7 @@ const ScrollToTop = () => {
   bottom-14
   lg:bottom-6
   right-4
-  z-50
+  z-[9999999999999]
   lg:flex
   h-12
   w-12
