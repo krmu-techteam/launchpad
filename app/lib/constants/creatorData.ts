@@ -16,22 +16,7 @@ export type CreatorDataType = {
 };
 
 export const creatorData: CreatorDataType[] = [
-  {
-    creatorName: "Sonal Kaushal",
-    creatorTitle: "Storytelling Skills That Make You Stand Out",
-    creatorDesc:
-      "Master the art of storytelling to express ideas with clarity, confidence, and creativity. Learn how effective communication skills can help you leave a lasting impression in every sphere of life.",
-    creatorImage: "/images/content-creators/sonal.png",
-    cardBg: "bg-[linear-gradient(97.04deg,#D75731_12.38%,#4D4550_88.96%)]",
-    imageBgGradient: "bg-[linear-gradient(180deg,#504650_0%,#972B0C_100%)] ",
-    eventDate: "2026-07-15T19:00:00",
-    date: "15",
-    month: "July",
-    creatorInfo: "Voice Artist • Content Creator • Storyteller",
-    qrImg: "/images/sonal-qr.png",
-    qrUrl:
-      "https://zoom.us/webinar/register/3217819463324/WN_mdfKtXGFQsi77zno9gafRg#/registration",
-  },
+ 
   {
     creatorName: "Ayushman Pandita",
     creatorTitle: "AI Tools Every Student Should Learn in 2026",
@@ -170,5 +155,22 @@ export const creatorData: CreatorDataType[] = [
     qrUrl: "",
     sessionEnd: true,
     sessionEndBg: "bg-[#60532e]",
+  },
+   {
+    creatorName: "Sonal Kaushal",
+    creatorTitle: "Storytelling Skills That Make You Stand Out",
+    creatorDesc:
+      "Master the art of storytelling to express ideas with clarity, confidence, and creativity. Learn how effective communication skills can help you leave a lasting impression in every sphere of life.",
+    creatorImage: "/images/content-creators/sonal.png",
+    cardBg: "bg-[linear-gradient(97.04deg,#D75731_12.38%,#4D4550_88.96%)]",
+    imageBgGradient: "bg-[linear-gradient(180deg,#504650_0%,#972B0C_100%)] ",
+    eventDate: "2026-07-15T19:00:00",
+    date: "15",
+    month: "July",
+    creatorInfo: "Voice Artist • Content Creator • Storyteller",
+    qrImg: "",
+    qrUrl: "",
+    sessionEnd: true,
+    sessionEndBg: "bg-[#b1543e]",
   },
 ];
