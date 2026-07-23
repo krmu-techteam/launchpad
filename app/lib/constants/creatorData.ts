@@ -16,23 +16,6 @@ export type CreatorDataType = {
 };
 
 export const creatorData: CreatorDataType[] = [
- 
-  {
-    creatorName: "Ayushman Pandita",
-    creatorTitle: "AI Tools Every Student Should Learn in 2026",
-    creatorDesc:
-      "Step into the exciting world of Artificial Intelligence and explore powerful tools that are transforming the way we learn, create, communicate, and work. Discover how AI is reshaping industries, redefining careers, and becoming one of the most valuable future-ready skills for students in the digital age.",
-    creatorImage: "/images/content-creators/ayushman.png",
-    cardBg: "bg-[linear-gradient(263.53deg,#116490_-1.31%,#721361_98.73%)]",
-    imageBgGradient: "bg-[linear-gradient(180deg,#1B5C8C_0%,#48073E_100%)] ",
-    eventDate: "2026-07-22T19:00:00",
-    date: "22",
-    month: "July",
-    creatorInfo: "AI Educator • Tech Creator • Digital Innovator",
-    qrImg: "/images/ayushman-pandit-qr.png",
-    qrUrl:
-      "https://zoom.us/webinar/register/7017819467793/WN_kAoZ5cC9Qb6e6ma12mSklw#/registration",
-  },
   {
     creatorName: "Manika Vishwakarma",
     creatorTitle: "Self Grooming, Confidence & First Impressions",
@@ -156,7 +139,7 @@ export const creatorData: CreatorDataType[] = [
     sessionEnd: true,
     sessionEndBg: "bg-[#60532e]",
   },
-   {
+  {
     creatorName: "Sonal Kaushal",
     creatorTitle: "Storytelling Skills That Make You Stand Out",
     creatorDesc:
@@ -172,5 +155,22 @@ export const creatorData: CreatorDataType[] = [
     qrUrl: "",
     sessionEnd: true,
     sessionEndBg: "bg-[#b1543e]",
+  },
+  {
+    creatorName: "Ayushman Pandita",
+    creatorTitle: "AI Tools Every Student Should Learn in 2026",
+    creatorDesc:
+      "Step into the exciting world of Artificial Intelligence and explore powerful tools that are transforming the way we learn, create, communicate, and work. Discover how AI is reshaping industries, redefining careers, and becoming one of the most valuable future-ready skills for students in the digital age.",
+    creatorImage: "/images/content-creators/ayushman.png",
+    cardBg: "bg-[linear-gradient(263.53deg,#116490_-1.31%,#721361_98.73%)]",
+    imageBgGradient: "bg-[linear-gradient(180deg,#1B5C8C_0%,#48073E_100%)] ",
+    eventDate: "2026-07-22T19:00:00",
+    date: "22",
+    month: "July",
+    creatorInfo: "AI Educator • Tech Creator • Digital Innovator",
+    qrImg: "",
+    qrUrl: "",
+    sessionEnd: true,
+    sessionEndBg: "bg-[linear-gradient(90deg,#572A6F_0%,#463877_50%,#37457E_100%)]",
   },
 ];
