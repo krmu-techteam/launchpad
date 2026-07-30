@@ -17,23 +17,6 @@ export type CreatorDataType = {
 
 export const creatorData: CreatorDataType[] = [
   {
-    creatorName: "Manika Vishwakarma",
-    creatorTitle: "Self Grooming, Confidence & First Impressions",
-    creatorDesc:
-      "Boost your confidence through self-grooming, styling, and effective first impressions. Learn how personality, appearance, and communication together contribute to personal and professional growth.",
-    creatorImage: "/images/content-creators/manika.png",
-    cardBg: "bg-[linear-gradient(263.45deg,#004E23_3.12%,#4B5875_97.48%)]",
-    imageBgGradient: "bg-[linear-gradient(180deg,#0A4D32_0%,#19263C_100%)] ",
-    eventDate: "2026-07-29T19:00:00",
-    date: "29",
-    month: "JULY",
-    creatorInfo:
-      "Miss Universe India 2025 • Fashion Creator • Lifestyle Influencer",
-    qrImg: "/images/manika-qr.png",
-    qrUrl:
-      "https://zoom.us/webinar/register/9217819480588/WN_v4OmtI8ZQKaw4Z-Qir6Xgw#/registration",
-  },
-  {
     creatorName: "Aman Gupta",
     creatorTitle:
       "Think Like a Founder: Skills, Mindset & Opportunities for the AI Era",
@@ -171,6 +154,24 @@ export const creatorData: CreatorDataType[] = [
     qrImg: "",
     qrUrl: "",
     sessionEnd: true,
-    sessionEndBg: "bg-[linear-gradient(90deg,#572A6F_0%,#463877_50%,#37457E_100%)]",
+    sessionEndBg:
+      "bg-[linear-gradient(90deg,#572A6F_0%,#463877_50%,#37457E_100%)]",
+  },
+  {
+    creatorName: "Manika Vishwakarma",
+    creatorTitle: "Self Grooming, Confidence & First Impressions",
+    creatorDesc:
+      "Boost your confidence through self-grooming, styling, and effective first impressions. Learn how personality, appearance, and communication together contribute to personal and professional growth.",
+    creatorImage: "/images/content-creators/manika.png",
+    cardBg: "bg-[linear-gradient(263.45deg,#004E23_3.12%,#4B5875_97.48%)]",
+    imageBgGradient: "bg-[linear-gradient(180deg,#0A4D32_0%,#19263C_100%)] ",
+    eventDate: "2026-07-29T19:00:00",
+    date: "29",
+    month: "JULY",
+    qrImg: "",
+    qrUrl: "",
+    sessionEnd: true,
+    sessionEndBg:
+      "bg-[#2a5451]",
   },
 ];
