@@ -25,7 +25,7 @@ export const creatorData: CreatorDataType[] = [
     creatorImage: "/images/content-creators/aman.png",
     cardBg: "bg-[linear-gradient(263deg,#4F1271_5.51%,#004998_99.19%)]",
     imageBgGradient: "bg-[linear-gradient(180deg,#421069_0%,#012860_100%)] ",
-    eventDate: "2026-08-05T13:30:00",
+    eventDate: "2026-08-05T19:59:59",
     date: "05",
     month: "AUG",
     creatorInfo: "Entrepreneur • Angel Investor • Shark Tank Judge",
