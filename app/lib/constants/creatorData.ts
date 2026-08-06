@@ -17,24 +17,6 @@ export type CreatorDataType = {
 
 export const creatorData: CreatorDataType[] = [
   {
-    creatorName: "Aman Gupta",
-    creatorTitle:
-      "Think Like a Founder: Skills, Mindset & Opportunities for the AI Era",
-    creatorDesc:
-      "A dynamic session on thinking beyond conventional career paths, cultivating a founder's mindset, and preparing for the opportunities of tomorrow. Learn how to adapt to technological disruption, harness the power of AI, build problem-solving skills, and transform ideas into meaningful impact in an increasingly innovation-led world.",
-    creatorImage: "/images/content-creators/aman.png",
-    cardBg: "bg-[linear-gradient(263deg,#4F1271_5.51%,#004998_99.19%)]",
-    imageBgGradient: "bg-[linear-gradient(180deg,#421069_0%,#012860_100%)] ",
-    eventDate: "2026-08-05T19:59:59",
-    date: "05",
-    month: "AUG",
-    creatorInfo: "Entrepreneur • Angel Investor • Shark Tank Judge",
-    qrImg: "/images/aman-qr.png",
-    qrUrl:
-      "https://zoom.us/webinar/register/8617819486192/WN_IqaMhlNnSTOxq8Ltq_hiFA#/registration",
-    sessionEnd: false,
-  },
-  {
     creatorName: "Ankur Warikoo",
     creatorTitle: "Build a Powerful Profile Before Your First Semester",
     creatorDesc:
@@ -171,7 +153,24 @@ export const creatorData: CreatorDataType[] = [
     qrImg: "",
     qrUrl: "",
     sessionEnd: true,
-    sessionEndBg:
-      "bg-[#2a5451]",
+    sessionEndBg: "bg-[#2a5451]",
+  },
+  {
+    creatorName: "Aman Gupta",
+    creatorTitle:
+      "Think Like a Founder: Skills, Mindset & Opportunities for the AI Era",
+    creatorDesc:
+      "A dynamic session on thinking beyond conventional career paths, cultivating a founder's mindset, and preparing for the opportunities of tomorrow. Learn how to adapt to technological disruption, harness the power of AI, build problem-solving skills, and transform ideas into meaningful impact in an increasingly innovation-led world.",
+    creatorImage: "/images/content-creators/aman.png",
+    cardBg: "bg-[linear-gradient(263deg,#4F1271_5.51%,#004998_99.19%)]",
+    imageBgGradient: "bg-[linear-gradient(180deg,#421069_0%,#012860_100%)] ",
+    eventDate: "2026-08-05T19:59:59",
+    date: "05",
+    month: "AUG",
+    creatorInfo: "Entrepreneur • Angel Investor • Shark Tank Judge",
+    qrImg: "",
+    qrUrl: "",
+    sessionEnd: true,
+    sessionEndBg: "bg-[#213388]",
   },
 ];
